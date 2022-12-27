@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "portdiscs:blocks/jukebox_side",
+    "up": "portdiscs:blocks/jukebox_top",
+    "north": "portdiscs:blocks/jukebox_side",
+    "east": "portdiscs:blocks/jukebox_side",
+    "south": "portdiscs:blocks/jukebox_side",
+    "west": "portdiscs:blocks/jukebox_side",
+    "particle": "portdiscs:blocks/jukebox_side"
+  }
+}

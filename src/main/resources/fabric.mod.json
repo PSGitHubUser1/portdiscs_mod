@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "portdiscs",
+  "version": "0.8.0",
+  "name": "PortDiscs",
+  "description": "The Official Fabric Port of T_en_M's Discs.",
+  "authors": [
+    "InfoyPS/PMUser, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/portdiscs-fabric-port",
+    "sources": ""
+  },
+  "license": "MIT License",
+  "icon": "assets/portdiscs/icon.png",
+  "accessWidener": "portdiscs.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mojang.portdiscs.PortdiscsMod"
+    ],
+    "client": [
+      "net.mojang.portdiscs.ClientInit"
+    ],
+    "terrablender": [
+      "net.mojang.portdiscs.TerraBlenderInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "portdiscs.mixins.json"
+  ]
+}

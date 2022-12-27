@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "portdiscs:alivetenm"
+    },
+    "title": {
+      "translate": "advancements.alive_adv.title"
+    },
+    "description": {
+      "translate": "advancements.alive_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "alive_adv": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "portdiscs:alivetenm"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "portdiscs:the_sound_of_music"
+}

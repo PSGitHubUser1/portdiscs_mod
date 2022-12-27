@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "portdiscs:staff_of_trapped_souls"
+    },
+    "title": {
+      "translate": "advancements.magic_of_souls.title"
+    },
+    "description": {
+      "translate": "advancements.magic_of_souls.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "magic_of_souls": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "portdiscs:staff_of_trapped_souls"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1000000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "portdiscs:seeking_skulls"
+}

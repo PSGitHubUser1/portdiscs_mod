@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "northen_lights_animated",
+    "description": "T_en_M - Northern Lights",
+    "creativeTab": {
+      "value": "CUSTOM:MojangConceptDiscs"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:northern_lights"
+    },
+    "lengthInTicks": 2620,
+    "analogOutput": 4
+  }
+}

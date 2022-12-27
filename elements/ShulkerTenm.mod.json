@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "shulker",
+    "description": "T_en_M - Shulker",
+    "creativeTab": {
+      "value": "CUSTOM:MojangConceptDiscs"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:shulker"
+    },
+    "lengthInTicks": 2580,
+    "analogOutput": 4
+  }
+}

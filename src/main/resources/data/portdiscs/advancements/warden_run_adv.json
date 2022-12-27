@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "portdiscs:warden_run_tenm"
+    },
+    "title": {
+      "translate": "advancements.warden_run_adv.title"
+    },
+    "description": {
+      "translate": "advancements.warden_run_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "warden_run_adv": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "portdiscs:warden_run_tenm"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "portdiscs:the_sound_of_music"
+}

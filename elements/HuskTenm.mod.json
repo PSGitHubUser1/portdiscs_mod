@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "husk",
+    "description": "T_en_M - Husk",
+    "creativeTab": {
+      "value": "CUSTOM:MojangConceptDiscs"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:husk"
+    },
+    "lengthInTicks": 2560,
+    "analogOutput": 4
+  }
+}

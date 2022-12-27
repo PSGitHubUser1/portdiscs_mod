@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "luminous",
+    "description": "T_en_M - Luminous",
+    "creativeTab": {
+      "value": "CUSTOM:MojangConceptDiscs"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:luminous"
+    },
+    "lengthInTicks": 1860,
+    "analogOutput": 4
+  }
+}

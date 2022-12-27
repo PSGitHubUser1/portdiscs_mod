@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "the_ender_dragon",
+    "description": "T_en_M - The Ender Dragon",
+    "creativeTab": {
+      "value": "CUSTOM:MojangConceptDiscs"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:the_ender_dragon_fight_sus"
+    },
+    "lengthInTicks": 3420,
+    "analogOutput": 4
+  }
+}

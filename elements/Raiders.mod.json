@@ -1,0 +1,22 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "raiders",
+    "description": "T_en_M - Raiders",
+    "creativeTab": {
+      "value": "CUSTOM:MojangConceptDiscs"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:raiders"
+    },
+    "lengthInTicks": 3640,
+    "analogOutput": 4,
+    "onEntityHitWith": {
+      "name": "RaidersLivingEntityIsHitWithItem"
+    }
+  }
+}

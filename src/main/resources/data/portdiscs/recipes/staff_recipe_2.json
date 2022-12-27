@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stick"
+    },
+    "1": {
+      "item": "portdiscs:citrineblock"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "4": {
+      "item": "minecraft:dark_oak_log"
+    },
+    "6": {
+      "item": "minecraft:dark_oak_leaves"
+    },
+    "7": {
+      "item": "minecraft:dark_oak_log"
+    },
+    "8": {
+      "item": "minecraft:dark_oak_leaves"
+    }
+  },
+  "result": {
+    "item": "portdiscs:staff_of_dark_woods",
+    "count": 1
+  }
+}

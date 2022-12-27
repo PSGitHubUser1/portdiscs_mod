@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "portdiscs:citrine"
+    },
+    "1": {
+      "item": "portdiscs:citrine"
+    },
+    "2": {
+      "item": "portdiscs:citrine"
+    },
+    "3": {
+      "item": "portdiscs:citrine"
+    },
+    "4": {
+      "item": "portdiscs:citrine"
+    },
+    "5": {
+      "item": "portdiscs:citrine"
+    },
+    "6": {
+      "item": "portdiscs:citrine"
+    },
+    "7": {
+      "item": "portdiscs:citrine"
+    },
+    "8": {
+      "item": "portdiscs:citrine"
+    }
+  },
+  "result": {
+    "item": "portdiscs:citrineblock",
+    "count": 1
+  }
+}

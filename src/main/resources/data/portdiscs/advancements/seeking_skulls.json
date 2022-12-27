@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "portdiscs:soul_seeker_head"
+    },
+    "title": {
+      "translate": "advancements.seeking_skulls.title"
+    },
+    "description": {
+      "translate": "advancements.seeking_skulls.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "seeking_skulls": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "portdiscs:soul_seeker_head"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1000000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:story/root"
+}

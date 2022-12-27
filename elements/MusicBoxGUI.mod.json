@@ -1,0 +1,299 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 340,
+    "height": 180,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Music Box (Click to play the music)",
+          "color": {
+            "value": -39424,
+            "falpha": 0.0
+          },
+          "name": "Music Box (Click to play the music)",
+          "x": 120,
+          "y": 41
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Play Musics:",
+          "color": {
+            "value": -15438370,
+            "falpha": 0.0
+          },
+          "name": "Play Musics:",
+          "x": 49,
+          "y": 77
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Alive",
+          "onClick": {
+            "name": "AliveRun"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Alive",
+          "x": 52,
+          "y": 92
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Brute",
+          "onClick": {
+            "name": "BruteRun"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Brute",
+          "x": 52,
+          "y": 119
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Cascade",
+          "onClick": {
+            "name": "CascadeRun"
+          },
+          "width": 61,
+          "height": 20,
+          "name": "Cascade",
+          "x": 52,
+          "y": 144
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Comet",
+          "onClick": {
+            "name": "CometRun"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Comet",
+          "x": 51,
+          "y": 172
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "NEXT",
+          "onClick": {
+            "name": "NEXTGUIClick"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "NEXT",
+          "x": 375,
+          "y": 7
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Forest",
+          "onClick": {
+            "name": "ForestRun"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "Forest",
+          "x": 119,
+          "y": 92
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Glide",
+          "onClick": {
+            "name": "GlideRun"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Glide",
+          "x": 119,
+          "y": 119
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Guardian",
+          "onClick": {
+            "name": "GuardianRun"
+          },
+          "width": 67,
+          "height": 20,
+          "name": "Guardian",
+          "x": 119,
+          "y": 144
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "[Click button another when first music ends!]",
+          "color": {
+            "value": -3407821,
+            "falpha": 0.0
+          },
+          "name": "[Click button another when first music ends!]",
+          "x": 97,
+          "y": 60
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Husk",
+          "onClick": {
+            "name": "HuskRun"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Husk",
+          "x": 119,
+          "y": 172
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Lightning",
+          "onClick": {
+            "name": "Lightning"
+          },
+          "width": 72,
+          "height": 20,
+          "name": "Lightning",
+          "x": 194,
+          "y": 92
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Luminous",
+          "onClick": {
+            "name": "LuminousRun"
+          },
+          "width": 67,
+          "height": 20,
+          "name": "Luminous",
+          "x": 194,
+          "y": 119
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Northern Lights",
+          "onClick": {
+            "name": "NothernLightsRun"
+          },
+          "width": 103,
+          "height": 20,
+          "name": "Northern Lights",
+          "x": 194,
+          "y": 144
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Ochre",
+          "onClick": {
+            "name": "OchreRun"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Ochre",
+          "x": 194,
+          "y": 172
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Overtune",
+          "onClick": {
+            "name": "OvertuneRun"
+          },
+          "width": 67,
+          "height": 20,
+          "name": "Overtune",
+          "x": 301,
+          "y": 93
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Raiders",
+          "onClick": {
+            "name": "RaidersRun"
+          },
+          "width": 61,
+          "height": 20,
+          "name": "Raiders",
+          "x": 301,
+          "y": 119
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Shrieker",
+          "onClick": {
+            "name": "ShriekerRun"
+          },
+          "width": 67,
+          "height": 20,
+          "name": "Shrieker",
+          "x": 301,
+          "y": 144
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Sleigh",
+          "onClick": {
+            "name": "SleighRun"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "Sleigh",
+          "x": 301,
+          "y": 172
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

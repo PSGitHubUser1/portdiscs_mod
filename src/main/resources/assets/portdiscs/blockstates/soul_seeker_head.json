@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "portdiscs:block/soul_seeker_head"
+    },
+    "facing=east": {
+      "model": "portdiscs:block/soul_seeker_head",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "portdiscs:block/soul_seeker_head",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "portdiscs:block/soul_seeker_head",
+      "y": 270
+    }
+  }
+}

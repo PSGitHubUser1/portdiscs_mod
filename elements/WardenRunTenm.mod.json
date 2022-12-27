@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "wardenrun-animated",
+    "description": "T_en_M - Warden Run",
+    "creativeTab": {
+      "value": "CUSTOM:MojangConceptDiscs"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:warden_run"
+    },
+    "lengthInTicks": 3680,
+    "analogOutput": 4
+  }
+}

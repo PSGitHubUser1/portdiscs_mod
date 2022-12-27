@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "portdiscs:alldisc"
+    },
+    "title": {
+      "translate": "advancements.the_sound_of_music.title"
+    },
+    "description": {
+      "translate": "advancements.the_sound_of_music.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_sound_of_music": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:story/root"
+}

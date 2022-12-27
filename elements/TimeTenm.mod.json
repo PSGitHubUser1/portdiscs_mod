@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "time",
+    "description": "T_en_M & 2R8B7 - Time",
+    "creativeTab": {
+      "value": "CUSTOM:MojangConceptDiscs"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:time_t_en_m"
+    },
+    "lengthInTicks": 2980,
+    "analogOutput": 4
+  }
+}

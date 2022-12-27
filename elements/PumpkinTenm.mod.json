@@ -1,0 +1,25 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "pumpkin",
+    "description": "T_en_M - Pumpkin",
+    "creativeTab": {
+      "value": "CUSTOM:MojangConceptDiscs"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:pumpkin"
+    },
+    "lengthInTicks": 2080,
+    "analogOutput": 4,
+    "onRightClickedInAir": {
+      "name": "PumpkinTenmRightclicked"
+    },
+    "onRightClickedOnBlock": {
+      "name": "PumpkinTenmRightclicked"
+    }
+  }
+}

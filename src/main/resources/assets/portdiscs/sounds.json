@@ -1,0 +1,311 @@
+{
+  "comet": {
+    "category": "record",
+    "subtitle": "subtitles.comet",
+    "sounds": [
+      {
+        "name": "portdiscs:comet",
+        "stream": true
+      }
+    ]
+  },
+  "forest": {
+    "category": "record",
+    "subtitle": "subtitles.forest",
+    "sounds": [
+      {
+        "name": "portdiscs:forest",
+        "stream": true
+      }
+    ]
+  },
+  "glide": {
+    "category": "record",
+    "subtitle": "subtitles.glide",
+    "sounds": [
+      {
+        "name": "portdiscs:glide",
+        "stream": true
+      }
+    ]
+  },
+  "guardian": {
+    "category": "record",
+    "subtitle": "subtitles.guardian",
+    "sounds": [
+      {
+        "name": "portdiscs:guardian",
+        "stream": true
+      }
+    ]
+  },
+  "husk": {
+    "category": "record",
+    "subtitle": "subtitles.husk",
+    "sounds": [
+      {
+        "name": "portdiscs:husk",
+        "stream": true
+      }
+    ]
+  },
+  "lighting_bolt": {
+    "category": "record",
+    "subtitle": "subtitles.lighting_bolt",
+    "sounds": [
+      {
+        "name": "portdiscs:lightning_bolt",
+        "stream": true
+      }
+    ]
+  },
+  "luminous": {
+    "category": "record",
+    "subtitle": "subtitles.luminous",
+    "sounds": [
+      {
+        "name": "portdiscs:luminous",
+        "stream": true
+      }
+    ]
+  },
+  "northern_lights": {
+    "category": "record",
+    "subtitle": "subtitles.northern_lights",
+    "sounds": [
+      {
+        "name": "portdiscs:northern_lights",
+        "stream": true
+      }
+    ]
+  },
+  "ochre": {
+    "category": "record",
+    "subtitle": "subtitles.ochre",
+    "sounds": [
+      {
+        "name": "portdiscs:ochre",
+        "stream": true
+      }
+    ]
+  },
+  "overtune": {
+    "category": "record",
+    "subtitle": "subtitles.overtune",
+    "sounds": [
+      {
+        "name": "portdiscs:overtune",
+        "stream": true
+      }
+    ]
+  },
+  "raiders": {
+    "category": "record",
+    "subtitle": "subtitles.raiders",
+    "sounds": [
+      {
+        "name": "portdiscs:raiders",
+        "stream": true
+      }
+    ]
+  },
+  "shrieker": {
+    "category": "record",
+    "subtitle": "subtitles.shrieker",
+    "sounds": [
+      {
+        "name": "portdiscs:shrieker",
+        "stream": true
+      }
+    ]
+  },
+  "sleigh": {
+    "category": "record",
+    "subtitle": "subtitles.sleigh",
+    "sounds": [
+      {
+        "name": "portdiscs:sleigh",
+        "stream": true
+      }
+    ]
+  },
+  "snowstorm": {
+    "category": "record",
+    "subtitle": "subtitles.snowstorm",
+    "sounds": [
+      {
+        "name": "portdiscs:snowstorm",
+        "stream": true
+      }
+    ]
+  },
+  "soulless": {
+    "category": "record",
+    "subtitle": "subtitles.soulless",
+    "sounds": [
+      {
+        "name": "portdiscs:soulless",
+        "stream": true
+      }
+    ]
+  },
+  "stride": {
+    "category": "record",
+    "subtitle": "subtitles.stride",
+    "sounds": [
+      {
+        "name": "portdiscs:stride",
+        "stream": true
+      }
+    ]
+  },
+  "the_ender_dragon_fight_sus": {
+    "category": "record",
+    "subtitle": "subtitles.the_ender_dragon_fight_sus",
+    "sounds": [
+      {
+        "name": "portdiscs:the_ender_dragon",
+        "stream": true
+      }
+    ]
+  },
+  "the_wither": {
+    "category": "record",
+    "subtitle": "subtitles.the_wither",
+    "sounds": [
+      {
+        "name": "portdiscs:the_wither",
+        "stream": true
+      }
+    ]
+  },
+  "time_t_en_m": {
+    "category": "record",
+    "subtitle": "subtitles.time_t_en_m",
+    "sounds": [
+      {
+        "name": "portdiscs:time_mfmmd_3",
+        "stream": true
+      }
+    ]
+  },
+  "underscore": {
+    "category": "record",
+    "subtitle": "subtitles.underscore",
+    "sounds": [
+      {
+        "name": "portdiscs:underscore",
+        "stream": true
+      }
+    ]
+  },
+  "warden_run": {
+    "category": "record",
+    "subtitle": "subtitles.warden_run",
+    "sounds": [
+      {
+        "name": "portdiscs:warden_run",
+        "stream": true
+      }
+    ]
+  },
+  "storm": {
+    "category": "record",
+    "subtitle": "subtitles.storm",
+    "sounds": [
+      {
+        "name": "portdiscs:storm",
+        "stream": true
+      }
+    ]
+  },
+  "brute": {
+    "category": "record",
+    "subtitle": "subtitles.brute",
+    "sounds": [
+      {
+        "name": "portdiscs:brute",
+        "stream": true
+      }
+    ]
+  },
+  "lush_gt": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "portdiscs:lush_gt",
+        "stream": true
+      }
+    ]
+  },
+  "alive": {
+    "category": "record",
+    "subtitle": "subtitles.alive",
+    "sounds": [
+      {
+        "name": "portdiscs:alive",
+        "stream": true
+      }
+    ]
+  },
+  "shriekerxbrute": {
+    "category": "record",
+    "subtitle": "subtitles.shriekerxbrute",
+    "sounds": [
+      {
+        "name": "portdiscs:shriekerxbrute",
+        "stream": true
+      }
+    ]
+  },
+  "mashup_tune": {
+    "category": "record",
+    "subtitle": "subtitles.mashup_tune",
+    "sounds": [
+      {
+        "name": "portdiscs:5k",
+        "stream": true
+      }
+    ]
+  },
+  "badomen": {
+    "category": "record",
+    "subtitle": "subtitles.badomen",
+    "sounds": [
+      {
+        "name": "portdiscs:badomen",
+        "stream": true
+      }
+    ]
+  },
+  "cascade": {
+    "category": "record",
+    "subtitle": "subtitles.cascade",
+    "sounds": [
+      {
+        "name": "portdiscs:cascade",
+        "stream": true
+      }
+    ]
+  },
+  "shulker": {
+    "category": "record",
+    "subtitle": "subtitles.shulker",
+    "sounds": [
+      {
+        "name": "portdiscs:shulker",
+        "stream": true
+      }
+    ]
+  },
+  "pumpkin": {
+    "category": "record",
+    "subtitle": "subtitles.pumpkin",
+    "sounds": [
+      {
+        "name": "portdiscs:pumpkin",
+        "stream": true
+      }
+    ]
+  }
+}

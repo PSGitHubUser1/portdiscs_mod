@@ -1,0 +1,176 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 340,
+    "height": 180,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "PREV",
+          "onClick": {
+            "name": "PREVGUIClick"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "PREV",
+          "x": 8,
+          "y": 7
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Snowstorm",
+          "onClick": {
+            "name": "SnowstormRun"
+          },
+          "width": 72,
+          "height": 20,
+          "name": "Snowstorm",
+          "x": 53,
+          "y": 40
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Soulless",
+          "onClick": {
+            "name": "SoullessRun"
+          },
+          "width": 67,
+          "height": 20,
+          "name": "Soulless",
+          "x": 53,
+          "y": 68
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Storm",
+          "onClick": {
+            "name": "StormRun"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Storm",
+          "x": 53,
+          "y": 94
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Stride",
+          "onClick": {
+            "name": "StrideRun"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "Stride",
+          "x": 53,
+          "y": 121
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "The Ender Dragon",
+          "onClick": {
+            "name": "TheEnderDragonsusRun"
+          },
+          "width": 108,
+          "height": 20,
+          "name": "The Ender Dragon",
+          "x": 53,
+          "y": 149
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "The Wither",
+          "onClick": {
+            "name": "TheWitherRun"
+          },
+          "width": 77,
+          "height": 20,
+          "name": "The Wither",
+          "x": 53,
+          "y": 175
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Time",
+          "onClick": {
+            "name": "TimeRun"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Time",
+          "x": 166,
+          "y": 40
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Underscore",
+          "onClick": {
+            "name": "UnderscoreRun"
+          },
+          "width": 77,
+          "height": 20,
+          "name": "Underscore",
+          "x": 166,
+          "y": 68
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Warden Run",
+          "onClick": {
+            "name": "WardenrunRun"
+          },
+          "width": 77,
+          "height": 20,
+          "name": "Warden Run",
+          "x": 166,
+          "y": 94
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Pumpkin",
+          "onClick": {
+            "name": "PumpkinRun"
+          },
+          "width": 61,
+          "height": 20,
+          "name": "Pumpkin",
+          "x": 166,
+          "y": 121
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

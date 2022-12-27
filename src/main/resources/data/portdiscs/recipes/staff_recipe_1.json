@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ender_pearl"
+    },
+    "1": {
+      "item": "portdiscs:soul_seeker_head"
+    },
+    "2": {
+      "item": "minecraft:ender_pearl"
+    },
+    "4": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "7": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "portdiscs:staff_of_trapped_souls",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "soulless_textureanim",
+    "description": "T_en_M - Soulless",
+    "creativeTab": {
+      "value": "CUSTOM:MojangConceptDiscs"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:soulless"
+    },
+    "lengthInTicks": 3420,
+    "analogOutput": 4
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_fv": 34,
+  "_type": "structure",
+  "definition": {
+    "structure": "strider_stables",
+    "randomlyRotateStructure": false,
+    "surfaceDetectionType": "First block",
+    "spawnProbability": 2800,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Underground",
+    "spawnHeightOffset": 0,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "Nether"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [
+      {
+        "value": "basalt_delta"
+      },
+      {
+        "value": "basalt_deltas"
+      },
+      {
+        "value": "nether"
+      },
+      {
+        "value": "soul_sand_valley"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

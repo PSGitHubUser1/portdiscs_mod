@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "portdiscs:blocks/citrineore",
+    "up": "portdiscs:blocks/citrineore",
+    "north": "portdiscs:blocks/citrineore",
+    "east": "portdiscs:blocks/citrineore",
+    "south": "portdiscs:blocks/citrineore",
+    "west": "portdiscs:blocks/citrineore",
+    "particle": "portdiscs:blocks/citrineore"
+  }
+}

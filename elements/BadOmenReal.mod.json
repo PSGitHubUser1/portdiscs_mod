@@ -1,0 +1,22 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "bad_omen",
+    "description": "T_en_M - Bad Omen",
+    "creativeTab": {
+      "value": "CUSTOM:MojangConceptDiscs"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:badomen"
+    },
+    "lengthInTicks": 2420,
+    "analogOutput": 4,
+    "onEntityHitWith": {
+      "name": "BadOmenLivingEntityIsHitWithItem"
+    }
+  }
+}

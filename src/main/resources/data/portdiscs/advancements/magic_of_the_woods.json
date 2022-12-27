@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "portdiscs:staff_of_dark_woods"
+    },
+    "title": {
+      "translate": "advancements.magic_of_the_woods.title"
+    },
+    "description": {
+      "translate": "advancements.magic_of_the_woods.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "magic_of_the_woods": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "portdiscs:staff_of_dark_woods"
+            ],
+            "count": {
+              "min": 1,
+              "max": 10000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:story/root"
+}

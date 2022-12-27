@@ -1,0 +1,8 @@
+{
+  "parent": "portdiscs:custom/skull",
+  "textures": {
+    "all": "portdiscs:blocks/head",
+    "particle": "portdiscs:blocks/head",
+    "2": "portdiscs:blocks/soulseekertexturefinal"
+  }
+}

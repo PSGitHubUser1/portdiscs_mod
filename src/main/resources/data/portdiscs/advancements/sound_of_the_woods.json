@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "portdiscs:forest_tenm"
+    },
+    "title": {
+      "translate": "advancements.sound_of_the_woods.title"
+    },
+    "description": {
+      "translate": "advancements.sound_of_the_woods.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "sound_of_the_woods": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "portdiscs:forest_tenm"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "portdiscs:the_sound_of_music"
+}

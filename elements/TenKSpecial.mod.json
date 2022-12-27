@@ -1,0 +1,21 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "5kspecial",
+    "description": "T_en_M - 5/10K Mashup",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "specialInfo": [
+      "All in one.."
+    ],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:mashup_tune"
+    },
+    "lengthInTicks": 4640,
+    "analogOutput": 5
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "1k",
+    "description": "T_en_M - Shrieker X Brute",
+    "creativeTab": {
+      "value": "CUSTOM:MojangConceptDiscs"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:shriekerxbrute"
+    },
+    "lengthInTicks": 2580,
+    "analogOutput": 5
+  }
+}

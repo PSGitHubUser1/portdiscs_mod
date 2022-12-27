@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "snowstorm",
+    "description": "T_en_M - Snowstorm",
+    "creativeTab": {
+      "value": "CUSTOM:MojangConceptDiscs"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:snowstorm"
+    },
+    "lengthInTicks": 3400,
+    "analogOutput": 4
+  }
+}

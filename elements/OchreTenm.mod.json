@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "ochre2",
+    "description": "T_en_M & 2R8B7 - Ochre",
+    "creativeTab": {
+      "value": "CUSTOM:MojangConceptDiscs"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:ochre"
+    },
+    "lengthInTicks": 3220,
+    "analogOutput": 4
+  }
+}

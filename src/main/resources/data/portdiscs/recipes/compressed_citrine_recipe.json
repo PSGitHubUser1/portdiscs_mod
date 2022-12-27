@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "portdiscs:citrineblock"
+    },
+    "1": {
+      "item": "portdiscs:citrineblock"
+    },
+    "2": {
+      "item": "portdiscs:citrineblock"
+    },
+    "3": {
+      "item": "portdiscs:citrineblock"
+    }
+  },
+  "result": {
+    "item": "portdiscs:compressed_citrine",
+    "count": 1
+  }
+}

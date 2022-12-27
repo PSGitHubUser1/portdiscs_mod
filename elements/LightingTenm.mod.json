@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "lightingboltdiscani",
+    "description": "T_en_M - Lightning",
+    "creativeTab": {
+      "value": "CUSTOM:MojangConceptDiscs"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:lighting_bolt"
+    },
+    "lengthInTicks": 2780,
+    "analogOutput": 4
+  }
+}
