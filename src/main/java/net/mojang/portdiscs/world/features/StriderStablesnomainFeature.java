@@ -13,6 +13,8 @@ import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.Mirror;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.util.Mth;
 import net.minecraft.resources.ResourceLocation;
@@ -42,16 +44,15 @@ public class StriderStablesnomainFeature extends Feature<NoneFeatureConfiguratio
 		return FEATURE;
 	}
 
-	public static final Predicate<BiomeSelectionContext> GENERATE_BIOMES = BiomeSelectors.includeByKey(
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("plains")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("basalt_deltas")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("nether_wastes")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("soul_sand_valley")));
+	public static final Predicate<BiomeSelectionContext> GENERATE_BIOMES = BiomeSelectors
+			.includeByKey(ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("crimson_forest")));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.NETHER);
+	private final List<Block> base_blocks;
 	private StructureTemplate template = null;
 
 	public StriderStablesnomainFeature() {
 		super(NoneFeatureConfiguration.CODEC);
+		base_blocks = List.of(Blocks.CRIMSON_NYLIUM);
 	}
 
 	@Override
@@ -70,6 +71,8 @@ public class StriderStablesnomainFeature extends Feature<NoneFeatureConfiguratio
 				int k = context.origin().getZ() + context.random().nextInt(16);
 				int j = context.level().getHeight(Heightmap.Types.WORLD_SURFACE_WG, i, k);
 				j = Mth.nextInt(context.random(), 8 + context.level().getMinBuildHeight(), Math.max(j, 9 + context.level().getMinBuildHeight()));
+				if (!base_blocks.contains(context.level().getBlockState(new BlockPos(i, j, k)).getBlock()))
+					continue;
 				BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);
 				if (template.placeInWorld(
 						context.level(), spawnTo, spawnTo, new StructurePlaceSettings().setMirror(Mirror.NONE).setRotation(Rotation.NONE)

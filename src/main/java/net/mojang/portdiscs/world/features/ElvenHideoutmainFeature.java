@@ -20,7 +20,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.features.FeatureUtils;
-import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 import net.minecraft.core.BlockPos;
 
@@ -43,84 +42,14 @@ public class ElvenHideoutmainFeature extends Feature<NoneFeatureConfiguration> {
 		return FEATURE;
 	}
 
-	public static final Predicate<BiomeSelectionContext> GENERATE_BIOMES = BiomeSelectors.includeByKey(
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("badlands")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("badlands")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("bamboo_jungle")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("bamboo_jungle")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("beach")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("birch_forest")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("birch_forest")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("cold_ocean")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("dark_forest")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("deep_cold_ocean")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("deep_dark")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("deep_frozen_ocean")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("deep_lukewarm_ocean")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("deep_ocean")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("warm_ocean")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("desert")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("desert")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("desert")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("dripstone_caves")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("eroded_badlands")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("flower_forest")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("forest")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("forest")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("frozen_ocean")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("frozen_peaks")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("frozen_river")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("grove")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("ice_spikes")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("jagged_peaks")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("jungle")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("lukewarm_ocean")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("lush_caves")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("mangrove_swamp")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("meadow")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("eroded_badlands")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("windswept_gravelly_hills")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("sparse_jungle")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("wooded_badlands")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("windswept_hills")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("mushroom_fields")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("mushroom_fields")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("ocean")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("old_growth_birch_forest")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("old_growth_birch_forest")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("old_growth_pine_taiga")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("old_growth_pine_taiga")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("old_growth_spruce_taiga")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("old_growth_spruce_taiga")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("river")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("savanna_plateau")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("windswept_savanna")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("snowy_slopes")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("windswept_hills")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("snowy_plains")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("snowy_taiga")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("snowy_taiga")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("snowy_taiga")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("sparse_jungle")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("stony_peaks")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("stony_shore")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("sunflower_plains")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("swamp")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("taiga")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("taiga")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("taiga")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("warm_ocean")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("windswept_forest")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("windswept_gravelly_hills")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("windswept_hills")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("windswept_savanna")));
+	public static final Predicate<BiomeSelectionContext> GENERATE_BIOMES = BiomeSelectors.all();
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 	private final List<Block> base_blocks;
 	private StructureTemplate template = null;
 
 	public ElvenHideoutmainFeature() {
 		super(NoneFeatureConfiguration.CODEC);
-		base_blocks = List.of(Blocks.WATER, Blocks.WATER, Blocks.BUBBLE_COLUMN);
+		base_blocks = List.of(Blocks.GRASS_BLOCK, Blocks.DIRT);
 	}
 
 	@Override

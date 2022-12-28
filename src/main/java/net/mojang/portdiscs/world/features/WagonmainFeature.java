@@ -20,7 +20,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.features.FeatureUtils;
-import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 import net.minecraft.core.BlockPos;
 
@@ -43,28 +42,14 @@ public class WagonmainFeature extends Feature<NoneFeatureConfiguration> {
 		return FEATURE;
 	}
 
-	public static final Predicate<BiomeSelectionContext> GENERATE_BIOMES = BiomeSelectors.includeByKey(
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("cold_ocean")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("deep_cold_ocean")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("deep_frozen_ocean")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("deep_lukewarm_ocean")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("deep_ocean")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("warm_ocean")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("desert")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("frozen_ocean")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("frozen_river")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("lukewarm_ocean")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("lush_caves")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("ocean")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("river")),
-			ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("warm_ocean")));
+	public static final Predicate<BiomeSelectionContext> GENERATE_BIOMES = BiomeSelectors.all();
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 	private final List<Block> base_blocks;
 	private StructureTemplate template = null;
 
 	public WagonmainFeature() {
 		super(NoneFeatureConfiguration.CODEC);
-		base_blocks = List.of(Blocks.WATER, Blocks.WATER, Blocks.BUBBLE_COLUMN);
+		base_blocks = List.of(Blocks.GRASS_BLOCK, Blocks.DIRT);
 	}
 
 	@Override

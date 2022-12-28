@@ -17,6 +17,6 @@
     ],
     "restrictionBlocks": [],
     "restrictionBiomes": [],
-    "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK"
+    "ignoreBlocks": "STRUCTURE_BLOCK"
   }
 }

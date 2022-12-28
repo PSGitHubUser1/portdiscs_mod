@@ -15,19 +15,14 @@
     "spawnWorldTypes": [
       "Nether"
     ],
-    "restrictionBlocks": [],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.CRIMSON_NYLIUM"
+      }
+    ],
     "restrictionBiomes": [
       {
-        "value": "basalt_delta"
-      },
-      {
-        "value": "basalt_deltas"
-      },
-      {
-        "value": "nether"
-      },
-      {
-        "value": "soul_sand_valley"
+        "value": "crimson_forest"
       }
     ],
     "ignoreBlocks": "STRUCTURE_BLOCK"
