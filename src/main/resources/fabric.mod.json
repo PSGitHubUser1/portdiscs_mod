@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "portdiscs",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "name": "PortDiscs",
   "description": "The Official Fabric Port of T_en_M's Discs.",
   "authors": [
