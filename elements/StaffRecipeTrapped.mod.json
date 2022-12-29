@@ -7,40 +7,40 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
+        "value": "Items.ENDER_PEARL"
+      },
+      {
+        "value": "CUSTOM:SoulSeekerHead"
+      },
+      {
+        "value": "Items.ENDER_PEARL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
         "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": "Blocks.SOUL_SAND"
-      },
-      {
-        "value": "Items.RECORD_11"
-      },
-      {
-        "value": "Blocks.SOUL_SAND"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.NETHER_STAR"
+        "value": "Items.NETHERITE_INGOT"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:TheWitherTenm"
+      "value": "CUSTOM:StaffOfTrappedSouls"
     },
-    "name": "wither_recipe",
+    "name": "staff_recipe_1",
     "namespace": "mod"
   }
 }

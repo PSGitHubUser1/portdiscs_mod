@@ -53,7 +53,7 @@ public class PillagerStationmainFeature extends Feature<NoneFeatureConfiguration
 
 	public PillagerStationmainFeature() {
 		super(NoneFeatureConfiguration.CODEC);
-		base_blocks = List.of(Blocks.GRASS_BLOCK, Blocks.DIRT);
+		base_blocks = List.of(Blocks.GRASS_BLOCK);
 	}
 
 	@Override
