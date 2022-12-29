@@ -52,7 +52,7 @@ public class PortdiscsModFeatures {
 				GenerationStep.Decoration.UNDERGROUND_STRUCTURES);
 		register("elven_hideout", ElvenHideoutmainFeature.feature(), ElvenHideoutmainFeature.GENERATE_BIOMES,
 				GenerationStep.Decoration.SURFACE_STRUCTURES);
-		register("seafort", SeafortmainFeature.feature(), SeafortmainFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_STRUCTURES);
+		register("seafort", SeafortmainFeature.feature(), SeafortmainFeature.GENERATE_BIOMES, GenerationStep.Decoration.SURFACE_STRUCTURES);
 		register("strider_stablesnomain", StriderStablesnomainFeature.feature(), StriderStablesnomainFeature.GENERATE_BIOMES,
 				GenerationStep.Decoration.UNDERGROUND_STRUCTURES);
 	}
