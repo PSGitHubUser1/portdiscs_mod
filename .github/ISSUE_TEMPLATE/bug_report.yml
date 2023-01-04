@@ -1,5 +1,5 @@
 name: Bug report
-description: Create a report to help us improve (search for duplicates first)
+description: "Create a report to help us improve (search for duplicates first)"
 labels: bug
 body:
  - type: textarea
@@ -16,7 +16,7 @@ body:
     placeholder: |
       Step 1: ...
       Step 2: ...
-      ...
+      ... 
    validations:
      required: true
  - type: dropdown
