@@ -1,12 +1,13 @@
 name: Bug report
-description: "Create a report to help us improve (search for duplicates first)"
+description: Create a report to help us improve (search for duplicates first)
 labels: bug
 body:
  - type: textarea
    attributes:
     label: Issue description
     description: Explain clearly and unambiguously what went wrong
-    placeholder: Tell us here about the bug/problem
+    placeholder: | 
+      Tell us here about the bug/problem
    validations:
     required: true
  - type: textarea
