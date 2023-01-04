@@ -6,8 +6,8 @@ body:
    attributes:
     label: Issue description
     description: Explain clearly and unambiguously what went wrong
-    placeholder: | 
-      Tell us here about the bug/problem
+    placeholder: |
+     Tell us here about the bug/problem
    validations:
     required: true
  - type: textarea
@@ -41,7 +41,6 @@ body:
       Fabric Generator version (*): [fabric-1.8.1 / fabric-1.8.2 / ...]
       Fabric Essentials version: [fabric-1.6.2 / fabric-1.6.3 / ...]
       
-      
    validations:
      required: true
  - type: textarea
@@ -53,14 +52,16 @@ body:
       Keep in mind your workspace of the project is not minimal reproducible example. Make a workspace only with elements crucial for the bug.
       
       Drag the file into this area.
-    placeholder: Insert here
+    placeholder: |
+      Insert here
    validations:
     required: false
  - type: textarea
    attributes:
     label: Logs
     description: 
-    placeholder: [example_log.txt / example_log.md ...]
+    placeholder: |
+     [example_log.txt / example_log.md ...]
    validations:
     required: false
  - type: checkboxes
