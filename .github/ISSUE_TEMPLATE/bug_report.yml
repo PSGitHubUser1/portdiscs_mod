@@ -38,9 +38,7 @@ body:
       MCreator version (*): [2022.3 / branch:master / ...]
       Generator type (*): [forge-1.19.2 / fabric-1.19.2 / ...]
       Fabric Generator version (*): [fabric-1.8.1 / fabric-1.8.2 / ...]
-      Fabric Essentials version: [fabric-1.6.2 / fabric-1.6.3 / ...]
-      
-      
+      Fabric Essentials version: [fabric-1.6.2 / fabric-1.6.3 / ...] 
    validations:
      required: true
  - type: textarea
