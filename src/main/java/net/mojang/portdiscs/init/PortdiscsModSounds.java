@@ -40,6 +40,7 @@ public class PortdiscsModSounds {
 	public static SoundEvent CASCADE = new SoundEvent(new ResourceLocation("portdiscs", "cascade"));
 	public static SoundEvent SHULKER = new SoundEvent(new ResourceLocation("portdiscs", "shulker"));
 	public static SoundEvent PUMPKIN = new SoundEvent(new ResourceLocation("portdiscs", "pumpkin"));
+	public static SoundEvent TUNDRA = new SoundEvent(new ResourceLocation("portdiscs", "tundra"));
 
 	public static void load() {
 		Registry.register(Registry.SOUND_EVENT, new ResourceLocation("portdiscs", "comet"), COMET);
@@ -73,5 +74,6 @@ public class PortdiscsModSounds {
 		Registry.register(Registry.SOUND_EVENT, new ResourceLocation("portdiscs", "cascade"), CASCADE);
 		Registry.register(Registry.SOUND_EVENT, new ResourceLocation("portdiscs", "shulker"), SHULKER);
 		Registry.register(Registry.SOUND_EVENT, new ResourceLocation("portdiscs", "pumpkin"), PUMPKIN);
+		Registry.register(Registry.SOUND_EVENT, new ResourceLocation("portdiscs", "tundra"), TUNDRA);
 	}
 }

@@ -307,5 +307,15 @@
         "stream": true
       }
     ]
+  },
+  "tundra": {
+    "category": "record",
+    "subtitle": "subtitles.tundra",
+    "sounds": [
+      {
+        "name": "portdiscs:tundra",
+        "stream": true
+      }
+    ]
   }
 }

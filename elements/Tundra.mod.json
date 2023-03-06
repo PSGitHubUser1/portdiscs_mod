@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "tundrav2",
+    "description": "T_en_M - Tundra",
+    "creativeTab": {
+      "value": "CUSTOM:MojangConceptDiscs"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:tundra"
+    },
+    "lengthInTicks": 2380,
+    "analogOutput": 4
+  }
+}

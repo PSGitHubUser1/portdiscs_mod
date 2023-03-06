@@ -6,6 +6,7 @@ package net.mojang.portdiscs.init;
 
 import net.mojang.portdiscs.item.WardenRunTenmItem;
 import net.mojang.portdiscs.item.UnderscoreTenmItem;
+import net.mojang.portdiscs.item.TundraItem;
 import net.mojang.portdiscs.item.TimeTenmItem;
 import net.mojang.portdiscs.item.TheWitherTenmItem;
 import net.mojang.portdiscs.item.TheEnderDragonTenmItem;
@@ -92,6 +93,7 @@ public class PortdiscsModItems {
 	public static Item ALLDISC;
 	public static Item LEAVE;
 	public static Item LEAVE_SHOOTER;
+	public static Item TUNDRA;
 
 	public static void load() {
 		ALIVETENM = Registry.register(Registry.ITEM, new ResourceLocation(PortdiscsMod.MODID, "alivetenm"), new AlivetenmItem());
@@ -139,5 +141,6 @@ public class PortdiscsModItems {
 		ALLDISC = Registry.register(Registry.ITEM, new ResourceLocation(PortdiscsMod.MODID, "alldisc"), new AlldiscItem());
 		LEAVE = Registry.register(Registry.ITEM, new ResourceLocation(PortdiscsMod.MODID, "leave"), new LeaveItem());
 		LEAVE_SHOOTER = Registry.register(Registry.ITEM, new ResourceLocation(PortdiscsMod.MODID, "leave_shooter"), new LeaveShooterItem());
+		TUNDRA = Registry.register(Registry.ITEM, new ResourceLocation(PortdiscsMod.MODID, "tundra"), new TundraItem());
 	}
 }

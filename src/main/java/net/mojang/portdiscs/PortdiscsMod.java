@@ -12,8 +12,6 @@
  */
 package net.mojang.portdiscs;
 
-import software.bernie.geckolib3.GeckoLib;
-
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -52,7 +50,6 @@ public class PortdiscsMod implements ModInitializer {
 
 		PortdiscsModSounds.load();
 
-		GeckoLib.initialize();
 		ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> {
 			if (handler.getPlayer().getExtraCustomData().getCompound("PlayerPersisted").isEmpty()) {
 				handler.getPlayer().getExtraCustomData().put("PlayerPersisted", new CompoundTag());
