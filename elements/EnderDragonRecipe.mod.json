@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 39,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -10,13 +10,7 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
         "value": "Items.DRAGON_BREATH"
-      },
-      {
-        "value": ""
       },
       {
         "value": "Blocks.OBSIDIAN"
@@ -28,10 +22,16 @@
         "value": "Blocks.OBSIDIAN"
       },
       {
+        "value": "Items.DRAGON_BREATH"
+      },
+      {
         "value": ""
       },
       {
-        "value": "Items.DRAGON_BREATH"
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
@@ -40,7 +40,7 @@
     "recipeReturnStack": {
       "value": "CUSTOM:TheEnderDragonTenm"
     },
-    "name": "ender_dragon_recipe",
+    "name": "enderdragon_recipe",
     "namespace": "mod"
   }
 }

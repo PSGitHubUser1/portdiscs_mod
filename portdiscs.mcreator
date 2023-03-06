@@ -3183,22 +3183,6 @@
       "registry_name": "mashup_recipe"
     },
     {
-      "name": "EnderDragonRecipe",
-      "type": "recipe",
-      "sortid": 183,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "ender_dragon_recipe"
-    },
-    {
-      "name": "WitherRecipe",
-      "type": "recipe",
-      "sortid": 184,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "wither_recipe"
-    },
-    {
       "name": "StormRecipe",
       "type": "recipe",
       "sortid": 185,
@@ -3362,7 +3346,38 @@
       "sortid": 193,
       "compiles": true,
       "locked_code": true,
-      "registry_name": "staff_recipe_trapped"
+      "registry_name": "staff_recipe_trapped",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/recipes/staff_recipe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "WitherRecipe",
+      "type": "recipe",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wither_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/recipes/wither_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderDragonRecipe",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ender_dragon_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/recipes/enderdragon_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -4609,7 +4624,8 @@
     "mcreatorDependencies": [
       "terrablender",
       "portinglib",
-      "etf"
+      "etf",
+      "geckolib"
     ],
     "currentGenerator": "fabric-1.19.2",
     "credits": "InfoyTech, T_en_M (Author)",

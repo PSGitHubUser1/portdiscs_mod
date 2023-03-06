@@ -7,40 +7,40 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.ENDER_PEARL"
       },
       {
-        "value": "Items.DRAGON_BREATH"
+        "value": "CUSTOM:SoulSeekerHead"
       },
       {
-        "value": ""
-      },
-      {
-        "value": "Blocks.OBSIDIAN"
-      },
-      {
-        "value": "Items.END_CRYSTAL"
-      },
-      {
-        "value": "Blocks.OBSIDIAN"
+        "value": "Items.ENDER_PEARL"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.DRAGON_BREATH"
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:TheEnderDragonTenm"
+      "value": "CUSTOM:StaffOfTrappedSouls"
     },
-    "name": "ender_dragon_recipe",
+    "name": "staff_recipe_1",
     "namespace": "mod"
   }
 }

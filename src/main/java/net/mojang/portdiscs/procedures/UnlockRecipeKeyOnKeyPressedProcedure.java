@@ -13,8 +13,22 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
 
 import java.util.Map;
+import java.util.HashMap;
+
+import io.github.fabricators_of_create.porting_lib.event.common.PlayerTickEvents;
 
 public class UnlockRecipeKeyOnKeyPressedProcedure {
+	public UnlockRecipeKeyOnKeyPressedProcedure() {
+		PlayerTickEvents.END.register((player) -> {
+			Map<String, Object> dependencies = new HashMap<>();
+			dependencies.put("entity", player);
+			dependencies.put("x", player.getX());
+			dependencies.put("y", player.getY());
+			dependencies.put("z", player.getZ());
+			dependencies.put("world", player.level);
+			execute(dependencies);
+		});
+	}
 
 	public static void execute(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
