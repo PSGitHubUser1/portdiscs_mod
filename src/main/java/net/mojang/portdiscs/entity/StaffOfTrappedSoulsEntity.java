@@ -52,13 +52,12 @@ public class StaffOfTrappedSoulsEntity extends AbstractArrow implements ItemSupp
 	public void playerTouch(Player entity) {
 		super.playerTouch(entity);
 		Entity sourceentity = this.getOwner();
-		Entity imediatesourceentity = this;
+		Entity immediatesourceentity = this;
 		double x = this.getX();
 		double y = this.getY();
 		double z = this.getZ();
 		Level world = this.level;
-		StaffOfTrappedSoulsProjectileHitsBlockProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world)
-				.put("x", x).put("y", y).put("z", z).put("entity", entity).build());
+		StaffOfTrappedSoulsProjectileHitsBlockProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).put("entity", entity).build());
 	}
 
 	@Override
@@ -69,9 +68,8 @@ public class StaffOfTrappedSoulsEntity extends AbstractArrow implements ItemSupp
 		double z = blockHitResult.getBlockPos().getZ();
 		Level world = this.level;
 		Entity entity = this.getOwner();
-		Entity imediatesourceentity = this;
-		StaffOfTrappedSoulsProjectileHitsBlockProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world)
-				.put("x", x).put("y", y).put("z", z).put("entity", entity).build());
+		Entity immediatesourceentity = this;
+		StaffOfTrappedSoulsProjectileHitsBlockProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).put("entity", entity).build());
 	}
 
 	@Override
@@ -82,9 +80,8 @@ public class StaffOfTrappedSoulsEntity extends AbstractArrow implements ItemSupp
 		double z = this.getZ();
 		Level world = this.level;
 		Entity entity = this.getOwner();
-		Entity imediatesourceentity = this;
-		StaffOfTrappedSoulsWhileProjectileFlyingTickProcedure.execute(
-				com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).build());
+		Entity immediatesourceentity = this;
+		StaffOfTrappedSoulsWhileProjectileFlyingTickProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).build());
 		if (this.inGround)
 			this.discard();
 	}
@@ -97,8 +94,7 @@ public class StaffOfTrappedSoulsEntity extends AbstractArrow implements ItemSupp
 		entityarrow.setBaseDamage(damage);
 		entityarrow.setKnockback(knockback);
 		world.addFreshEntity(entityarrow);
-		world.playSound((Player) null, entity.getX(), entity.getY(), entity.getZ(), SoundEvents.ENDER_PEARL_THROW, SoundSource.PLAYERS, 1,
-				1f / (random.nextFloat() * 0.5f + 1) + (power / 2));
+		world.playSound((Player) null, entity.getX(), entity.getY(), entity.getZ(), SoundEvents.ENDER_PEARL_THROW, SoundSource.PLAYERS, 1, 1f / (random.nextFloat() * 0.5f + 1) + (power / 2));
 		return entityarrow;
 	}
 
@@ -116,8 +112,7 @@ public class StaffOfTrappedSoulsEntity extends AbstractArrow implements ItemSupp
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-		entity.level.playSound((Player) null, (double) x, (double) y, (double) z, SoundEvents.ENDER_PEARL_THROW, SoundSource.PLAYERS, 1,
-				1f / (RandomSource.create().nextFloat() * 0.5f + 1));
+		entity.level.playSound((Player) null, (double) x, (double) y, (double) z, SoundEvents.ENDER_PEARL_THROW, SoundSource.PLAYERS, 1, 1f / (RandomSource.create().nextFloat() * 0.5f + 1));
 		return entityarrow;
 	}
 }

@@ -18,8 +18,7 @@ import net.minecraft.world.InteractionHand;
 
 public class PumpkinTenmItem extends RecordItem {
 	public PumpkinTenmItem() {
-		super(4, PortdiscsModSounds.PUMPKIN, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE),
-				2080);
+		super(4, PortdiscsModSounds.PUMPKIN, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 2080);
 	}
 
 	@Override
@@ -32,8 +31,7 @@ public class PumpkinTenmItem extends RecordItem {
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
 		InteractionResult retval = super.useOn(context);
-		PumpkinTenmRightclickedProcedure
-				.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", context.getPlayer()).build());
+		PumpkinTenmRightclickedProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", context.getPlayer()).build());
 		return retval;
 	}
 }

@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 
 public class TheWitherTenmItem extends RecordItem {
 	public TheWitherTenmItem() {
-		super(4, PortdiscsModSounds.THE_WITHER, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE),
-				2880);
+		super(4, PortdiscsModSounds.THE_WITHER, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 2880);
 	}
 }

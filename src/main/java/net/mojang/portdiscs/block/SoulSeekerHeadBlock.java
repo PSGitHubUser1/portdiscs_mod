@@ -43,8 +43,7 @@ import java.util.List;
 import java.util.Collections;
 
 public class SoulSeekerHeadBlock extends Block implements SimpleWaterloggedBlock {
-	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.STONE).sound(SoundType.STONE).strength(1.5f, 10f)
-			.lightLevel(s -> 4).noOcclusion().isRedstoneConductor((bs, br, bp) -> false);
+	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.STONE).sound(SoundType.STONE).strength(1.5f, 10f).lightLevel(s -> 4).noOcclusion().isRedstoneConductor((bs, br, bp) -> false);
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
@@ -99,8 +98,7 @@ public class SoulSeekerHeadBlock extends Block implements SimpleWaterloggedBlock
 	}
 
 	@Override
-	public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor world, BlockPos currentPos,
-			BlockPos facingPos) {
+	public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor world, BlockPos currentPos, BlockPos facingPos) {
 		if (state.getValue(WATERLOGGED)) {
 			world.scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(world));
 		}
@@ -123,12 +121,11 @@ public class SoulSeekerHeadBlock extends Block implements SimpleWaterloggedBlock
 	@Override
 	public void wasExploded(Level world, BlockPos pos, Explosion e) {
 		super.wasExploded(world, pos, e);
-		SoulSeekerHeadBlockDestroyedByExplosionProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("x", pos.getX())
-				.put("y", pos.getY()).put("z", pos.getZ()).put("world", world).build());
+		SoulSeekerHeadBlockDestroyedByExplosionProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("x", pos.getX()).put("y", pos.getY()).put("z", pos.getZ()).put("world", world).build());
 	}
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(PortdiscsModBlocks.SOUL_SEEKER_HEAD, RenderType.cutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(PortdiscsModBlocks.SOUL_SEEKER_HEAD, RenderType.solid());
 	}
 }

@@ -23,8 +23,7 @@ import java.util.List;
 import java.util.Collections;
 
 public class CitrineblockBlock extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.METAL).requiresCorrectToolForDrops().sound(SoundType.METAL)
-			.strength(3f, 7f).requiresCorrectToolForDrops();
+	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.METAL).requiresCorrectToolForDrops().sound(SoundType.METAL).strength(3f, 7f).requiresCorrectToolForDrops();
 
 	public CitrineblockBlock() {
 		super(PROPERTIES);

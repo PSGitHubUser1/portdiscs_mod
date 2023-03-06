@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 
 public class SoullessTenmItem extends RecordItem {
 	public SoullessTenmItem() {
-		super(4, PortdiscsModSounds.SOULLESS, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE),
-				3420);
+		super(4, PortdiscsModSounds.SOULLESS, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 3420);
 	}
 }

@@ -35,8 +35,7 @@ public class MusicBoxGUI2ButtonMessage extends FriendlyByteBuf {
 		writeInt(z);
 	}
 
-	public static void apply(MinecraftServer server, ServerPlayer entity, ServerGamePacketListenerImpl handler, FriendlyByteBuf buf,
-			PacketSender responseSender) {
+	public static void apply(MinecraftServer server, ServerPlayer entity, ServerGamePacketListenerImpl handler, FriendlyByteBuf buf, PacketSender responseSender) {
 		int buttonID = buf.readInt();
 		double x = buf.readInt();
 		double y = buf.readInt();
@@ -46,58 +45,47 @@ public class MusicBoxGUI2ButtonMessage extends FriendlyByteBuf {
 			HashMap guistate = MusicBoxGUI2Menu.guistate;
 			if (buttonID == 0) {
 
-				PREVGUIClickProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x)
-						.put("y", y).put("z", z).put("entity", entity).build());
+				PREVGUIClickProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).put("entity", entity).build());
 			}
 			if (buttonID == 1) {
 
-				SnowstormRunProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x)
-						.put("y", y).put("z", z).build());
+				SnowstormRunProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).build());
 			}
 			if (buttonID == 2) {
 
-				SoullessRunProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x)
-						.put("y", y).put("z", z).build());
+				SoullessRunProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).build());
 			}
 			if (buttonID == 3) {
 
-				StormRunProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y)
-						.put("z", z).build());
+				StormRunProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).build());
 			}
 			if (buttonID == 4) {
 
-				StrideRunProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x)
-						.put("y", y).put("z", z).build());
+				StrideRunProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).build());
 			}
 			if (buttonID == 5) {
 
-				TheEnderDragonsusRunProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x)
-						.put("y", y).put("z", z).build());
+				TheEnderDragonsusRunProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).build());
 			}
 			if (buttonID == 6) {
 
-				TheWitherRunProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x)
-						.put("y", y).put("z", z).build());
+				TheWitherRunProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).build());
 			}
 			if (buttonID == 7) {
 
-				TimeRunProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y)
-						.put("z", z).build());
+				TimeRunProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).build());
 			}
 			if (buttonID == 8) {
 
-				UnderscoreRunProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x)
-						.put("y", y).put("z", z).build());
+				UnderscoreRunProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).build());
 			}
 			if (buttonID == 9) {
 
-				WardenrunRunProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x)
-						.put("y", y).put("z", z).build());
+				WardenrunRunProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).build());
 			}
 			if (buttonID == 10) {
 
-				PumpkinRunProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x)
-						.put("y", y).put("z", z).build());
+				PumpkinRunProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).build());
 			}
 		});
 	}

@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 
 public class BruteTenmItem extends RecordItem {
 	public BruteTenmItem() {
-		super(4, PortdiscsModSounds.BRUTE, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE),
-				1860);
+		super(4, PortdiscsModSounds.BRUTE, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 1860);
 	}
 }

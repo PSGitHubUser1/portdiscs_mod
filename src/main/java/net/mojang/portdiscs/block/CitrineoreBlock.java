@@ -24,8 +24,7 @@ import java.util.List;
 import java.util.Collections;
 
 public class CitrineoreBlock extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE)
-			.strength(3f).requiresCorrectToolForDrops();
+	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE).strength(3f).requiresCorrectToolForDrops();
 
 	public CitrineoreBlock() {
 		super(PROPERTIES);

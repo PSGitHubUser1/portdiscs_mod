@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 
 public class TheEnderDragonTenmItem extends RecordItem {
 	public TheEnderDragonTenmItem() {
-		super(4, PortdiscsModSounds.THE_ENDER_DRAGON_FIGHT_SUS,
-				new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 3420);
+		super(4, PortdiscsModSounds.THE_ENDER_DRAGON_FIGHT_SUS, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 3420);
 	}
 }

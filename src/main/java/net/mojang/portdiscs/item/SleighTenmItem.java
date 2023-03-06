@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 
 public class SleighTenmItem extends RecordItem {
 	public SleighTenmItem() {
-		super(4, PortdiscsModSounds.SLEIGH, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE),
-				2040);
+		super(4, PortdiscsModSounds.SLEIGH, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 2040);
 	}
 }

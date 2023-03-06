@@ -1,4 +1,3 @@
-
 package net.mojang.portdiscs.entity;
 
 import net.minecraft.world.level.block.state.BlockState;

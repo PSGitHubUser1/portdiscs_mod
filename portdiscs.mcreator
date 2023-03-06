@@ -6,7 +6,13 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "alivetenm"
+      "registry_name": "alivetenm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/item/AlivetenmItem.java",
+          "src/main/resources/assets/portdiscs/models/item/alivetenm.json"
+        ]
+      }
     },
     {
       "name": "MojangConceptDiscs",
@@ -14,7 +20,10 @@
       "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infoys_portdiscs_mod"
+      "registry_name": "infoys_portdiscs_mod",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "CascadeTenm",
@@ -22,7 +31,13 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cascade_tenm"
+      "registry_name": "cascade_tenm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/item/CascadeTenmItem.java",
+          "src/main/resources/assets/portdiscs/models/item/cascade_tenm.json"
+        ]
+      }
     },
     {
       "name": "CometTenm",
@@ -30,7 +45,13 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "comet_tenm"
+      "registry_name": "comet_tenm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/item/CometTenmItem.java",
+          "src/main/resources/assets/portdiscs/models/item/comet_tenm.json"
+        ]
+      }
     },
     {
       "name": "ForestTenm",
@@ -38,7 +59,13 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "forest_tenm"
+      "registry_name": "forest_tenm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/item/ForestTenmItem.java",
+          "src/main/resources/assets/portdiscs/models/item/forest_tenm.json"
+        ]
+      }
     },
     {
       "name": "GlideTenm",
@@ -46,7 +73,13 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "glide_tenm"
+      "registry_name": "glide_tenm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/portdiscs/models/item/glide_tenm.json",
+          "src/main/java/net/mojang/portdiscs/item/GlideTenmItem.java"
+        ]
+      }
     },
     {
       "name": "GuardianTenm",
@@ -54,7 +87,13 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "guardian_tenm"
+      "registry_name": "guardian_tenm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/item/GuardianTenmItem.java",
+          "src/main/resources/assets/portdiscs/models/item/guardian_tenm.json"
+        ]
+      }
     },
     {
       "name": "HuskTenm",
@@ -62,7 +101,13 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "husk_tenm"
+      "registry_name": "husk_tenm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/item/HuskTenmItem.java",
+          "src/main/resources/assets/portdiscs/models/item/husk_tenm.json"
+        ]
+      }
     },
     {
       "name": "LightingTenm",
@@ -70,7 +115,13 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lightning_tenm"
+      "registry_name": "lightning_tenm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/portdiscs/models/item/lightning_tenm.json",
+          "src/main/java/net/mojang/portdiscs/item/LightingTenmItem.java"
+        ]
+      }
     },
     {
       "name": "LuminousTenm",
@@ -78,7 +129,13 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "luminous_tenm"
+      "registry_name": "luminous_tenm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/item/LuminousTenmItem.java",
+          "src/main/resources/assets/portdiscs/models/item/luminous_tenm.json"
+        ]
+      }
     },
     {
       "name": "NothernLightsTenm",
@@ -86,7 +143,13 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "nothern_lights_tenm"
+      "registry_name": "nothern_lights_tenm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/item/NothernLightsTenmItem.java",
+          "src/main/resources/assets/portdiscs/models/item/nothern_lights_tenm.json"
+        ]
+      }
     },
     {
       "name": "OchreTenm",
@@ -94,7 +157,13 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ochre_tenm"
+      "registry_name": "ochre_tenm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/portdiscs/models/item/ochre_tenm.json",
+          "src/main/java/net/mojang/portdiscs/item/OchreTenmItem.java"
+        ]
+      }
     },
     {
       "name": "Overtune",
@@ -102,7 +171,13 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "overtune_tenm"
+      "registry_name": "overtune_tenm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/portdiscs/models/item/overtune_tenm.json",
+          "src/main/java/net/mojang/portdiscs/item/OvertuneItem.java"
+        ]
+      }
     },
     {
       "name": "MusicBoxGUI",
@@ -110,7 +185,14 @@
       "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "music_box_gui"
+      "registry_name": "music_box_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/world/inventory/MusicBoxGUIMenu.java",
+          "src/main/java/net/mojang/portdiscs/client/gui/MusicBoxGUIScreen.java",
+          "src/main/java/net/mojang/portdiscs/network/MusicBoxGUIButtonMessage.java"
+        ]
+      }
     },
     {
       "name": "MusicBox",
@@ -118,7 +200,15 @@
       "sortid": 41,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "music_box"
+      "registry_name": "music_box",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/portdiscs/models/item/music_box.json",
+          "src/main/resources/assets/portdiscs/models/block/music_box.json",
+          "src/main/java/net/mojang/portdiscs/block/MusicBoxBlock.java",
+          "src/main/resources/assets/portdiscs/blockstates/music_box.json"
+        ]
+      }
     },
     {
       "name": "AliveRun",
@@ -128,6 +218,9 @@
       "locked_code": false,
       "registry_name": "alive_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/AliveRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -156,6 +249,9 @@
       "locked_code": false,
       "registry_name": "brute_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/BruteRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -182,7 +278,13 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "raiders_tenm"
+      "registry_name": "raiders_tenm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/item/RaidersItem.java",
+          "src/main/resources/assets/portdiscs/models/item/raiders_tenm.json"
+        ]
+      }
     },
     {
       "name": "Shrieker",
@@ -190,7 +292,13 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "shrieker_tenm"
+      "registry_name": "shrieker_tenm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/portdiscs/models/item/shrieker_tenm.json",
+          "src/main/java/net/mojang/portdiscs/item/ShriekerItem.java"
+        ]
+      }
     },
     {
       "name": "SleighTenm",
@@ -198,7 +306,13 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sleigh_tenm"
+      "registry_name": "sleigh_tenm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/item/SleighTenmItem.java",
+          "src/main/resources/assets/portdiscs/models/item/sleigh_tenm.json"
+        ]
+      }
     },
     {
       "name": "SnowstormTenm",
@@ -206,7 +320,13 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "snowstorm_tenm"
+      "registry_name": "snowstorm_tenm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/portdiscs/models/item/snowstorm_tenm.json",
+          "src/main/java/net/mojang/portdiscs/item/SnowstormTenmItem.java"
+        ]
+      }
     },
     {
       "name": "SoullessTenm",
@@ -214,7 +334,13 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "soulless_tenm"
+      "registry_name": "soulless_tenm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/portdiscs/models/item/soulless_tenm.json",
+          "src/main/java/net/mojang/portdiscs/item/SoullessTenmItem.java"
+        ]
+      }
     },
     {
       "name": "StormTenm",
@@ -222,7 +348,13 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "thunderstorm_tenm"
+      "registry_name": "thunderstorm_tenm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/item/StormTenmItem.java",
+          "src/main/resources/assets/portdiscs/models/item/thunderstorm_tenm.json"
+        ]
+      }
     },
     {
       "name": "Stride",
@@ -230,7 +362,13 @@
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "stride_tenm"
+      "registry_name": "stride_tenm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/portdiscs/models/item/stride_tenm.json",
+          "src/main/java/net/mojang/portdiscs/item/StrideItem.java"
+        ]
+      }
     },
     {
       "name": "TheEnderDragonTenm",
@@ -238,7 +376,13 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "the_ender_dragon_tenm"
+      "registry_name": "the_ender_dragon_tenm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/portdiscs/models/item/the_ender_dragon_tenm.json",
+          "src/main/java/net/mojang/portdiscs/item/TheEnderDragonTenmItem.java"
+        ]
+      }
     },
     {
       "name": "TheWitherTenm",
@@ -246,7 +390,13 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "the_wither_tenm"
+      "registry_name": "the_wither_tenm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/portdiscs/models/item/the_wither_tenm.json",
+          "src/main/java/net/mojang/portdiscs/item/TheWitherTenmItem.java"
+        ]
+      }
     },
     {
       "name": "TimeTenm",
@@ -254,7 +404,13 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "time_tenm"
+      "registry_name": "time_tenm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/portdiscs/models/item/time_tenm.json",
+          "src/main/java/net/mojang/portdiscs/item/TimeTenmItem.java"
+        ]
+      }
     },
     {
       "name": "UnderscoreTenm",
@@ -262,7 +418,13 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "underscore_tenm"
+      "registry_name": "underscore_tenm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/item/UnderscoreTenmItem.java",
+          "src/main/resources/assets/portdiscs/models/item/underscore_tenm.json"
+        ]
+      }
     },
     {
       "name": "WardenRunTenm",
@@ -270,7 +432,13 @@
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "warden_run_tenm"
+      "registry_name": "warden_run_tenm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/item/WardenRunTenmItem.java",
+          "src/main/resources/assets/portdiscs/models/item/warden_run_tenm.json"
+        ]
+      }
     },
     {
       "name": "MusicBoxOnBlockHitByProjectile",
@@ -280,6 +448,9 @@
       "locked_code": false,
       "registry_name": "music_box_on_block_hit_by_projectile",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/MusicBoxOnBlockHitByProjectileProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -308,6 +479,9 @@
       "locked_code": false,
       "registry_name": "cascade_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/CascadeRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -336,6 +510,9 @@
       "locked_code": false,
       "registry_name": "stop_sound_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/StopSoundRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -364,6 +541,9 @@
       "locked_code": false,
       "registry_name": "comet_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/CometRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -392,6 +572,9 @@
       "locked_code": false,
       "registry_name": "music_box_on_block_right_clicked",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/MusicBoxOnBlockRightClickedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -424,6 +607,9 @@
       "locked_code": false,
       "registry_name": "music_box_block_destroyed_by_explosion",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/MusicBoxBlockDestroyedByExplosionProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -452,6 +638,9 @@
       "locked_code": false,
       "registry_name": "music_box_redstone_on",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/MusicBoxRedstoneOnProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -480,6 +669,9 @@
       "locked_code": false,
       "registry_name": "forest_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/ForestRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -508,6 +700,9 @@
       "locked_code": false,
       "registry_name": "glide_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/GlideRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -536,6 +731,9 @@
       "locked_code": false,
       "registry_name": "guardian_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/GuardianRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -564,6 +762,9 @@
       "locked_code": false,
       "registry_name": "husk_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/HuskRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -592,6 +793,9 @@
       "locked_code": false,
       "registry_name": "lightning_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/LightningProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -620,6 +824,9 @@
       "locked_code": false,
       "registry_name": "luminous_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/LuminousRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -648,6 +855,9 @@
       "locked_code": false,
       "registry_name": "nothern_lights_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/NothernLightsRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -676,6 +886,9 @@
       "locked_code": false,
       "registry_name": "ochre_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/OchreRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -704,6 +917,9 @@
       "locked_code": false,
       "registry_name": "overtune_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/OvertuneRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -732,6 +948,9 @@
       "locked_code": false,
       "registry_name": "raiders_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/RaidersRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -760,6 +979,9 @@
       "locked_code": false,
       "registry_name": "shrieker_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/ShriekerRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -788,6 +1010,9 @@
       "locked_code": false,
       "registry_name": "sleigh_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/SleighRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -814,7 +1039,14 @@
       "sortid": 63,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "music_box_gui_2"
+      "registry_name": "music_box_gui_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/client/gui/MusicBoxGUI2Screen.java",
+          "src/main/java/net/mojang/portdiscs/world/inventory/MusicBoxGUI2Menu.java",
+          "src/main/java/net/mojang/portdiscs/network/MusicBoxGUI2ButtonMessage.java"
+        ]
+      }
     },
     {
       "name": "NEXTGUIClick",
@@ -824,6 +1056,9 @@
       "locked_code": false,
       "registry_name": "nextgui_click",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/NEXTGUIClickProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -856,6 +1091,9 @@
       "locked_code": false,
       "registry_name": "prevgui_click",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/PREVGUIClickProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -888,6 +1126,9 @@
       "locked_code": false,
       "registry_name": "snowstorm_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/SnowstormRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -916,6 +1157,9 @@
       "locked_code": false,
       "registry_name": "soulless_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/SoullessRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -944,6 +1188,9 @@
       "locked_code": false,
       "registry_name": "storm_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/StormRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -972,6 +1219,9 @@
       "locked_code": false,
       "registry_name": "stride_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/StrideRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -1000,6 +1250,9 @@
       "locked_code": false,
       "registry_name": "the_ender_dragonsus_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/TheEnderDragonsusRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -1028,6 +1281,9 @@
       "locked_code": false,
       "registry_name": "the_wither_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/TheWitherRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -1056,6 +1312,9 @@
       "locked_code": false,
       "registry_name": "time_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/TimeRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -1084,6 +1343,9 @@
       "locked_code": false,
       "registry_name": "underscore_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/UnderscoreRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -1112,6 +1374,9 @@
       "locked_code": false,
       "registry_name": "wardenrun_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/WardenrunRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -1138,7 +1403,12 @@
       "sortid": 75,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "loot_discs"
+      "registry_name": "loot_discs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/loot_tables/chests/loot_discs.json"
+        ]
+      }
     },
     {
       "name": "MinersHideoutLoot",
@@ -1146,7 +1416,12 @@
       "sortid": 76,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "miners_hideout_loot"
+      "registry_name": "miners_hideout_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/loot_tables/chests/miners_hideout_loot.json"
+        ]
+      }
     },
     {
       "name": "BadOmenReal",
@@ -1154,7 +1429,13 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bad_omen_tenm"
+      "registry_name": "bad_omen_tenm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/item/BadOmenRealItem.java",
+          "src/main/resources/assets/portdiscs/models/item/bad_omen_tenm.json"
+        ]
+      }
     },
     {
       "name": "PillagerStationLoot",
@@ -1162,7 +1443,12 @@
       "sortid": 77,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pillager_station_loot"
+      "registry_name": "pillager_station_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/loot_tables/chests/pillager_station_loot.json"
+        ]
+      }
     },
     {
       "name": "WagonLoot",
@@ -1170,7 +1456,12 @@
       "sortid": 78,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wagon_loot"
+      "registry_name": "wagon_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/loot_tables/chests/wagon_loot.json"
+        ]
+      }
     },
     {
       "name": "GoldenheartLavaLoot",
@@ -1178,7 +1469,12 @@
       "sortid": 79,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "goldenheart_lava_loot"
+      "registry_name": "goldenheart_lava_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/loot_tables/chests/golden_heart_lava_loot.json"
+        ]
+      }
     },
     {
       "name": "DesertRuinsLoot",
@@ -1186,7 +1482,12 @@
       "sortid": 80,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "desert_ruins_loot"
+      "registry_name": "desert_ruins_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/loot_tables/chests/desert_ruins_loot.json"
+        ]
+      }
     },
     {
       "name": "MysteriousEggLoot",
@@ -1194,7 +1495,12 @@
       "sortid": 81,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mysterious_egg_loot"
+      "registry_name": "mysterious_egg_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/loot_tables/chests/mysterious_egg_loot.json"
+        ]
+      }
     },
     {
       "name": "SoulBunkerLoot",
@@ -1202,7 +1508,12 @@
       "sortid": 82,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "soul_bunker_loot"
+      "registry_name": "soul_bunker_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/loot_tables/blocks/soul_bunker_loot.json"
+        ]
+      }
     },
     {
       "name": "LabLoot",
@@ -1210,7 +1521,12 @@
       "sortid": 83,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lab_loot"
+      "registry_name": "lab_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/loot_tables/chests/lab_loot.json"
+        ]
+      }
     },
     {
       "name": "CloudLoot",
@@ -1218,7 +1534,12 @@
       "sortid": 84,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cloud_loot"
+      "registry_name": "cloud_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/loot_tables/chests/cloud_loot.json"
+        ]
+      }
     },
     {
       "name": "GoldenHeartLoot",
@@ -1226,7 +1547,12 @@
       "sortid": 85,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "golden_heart_loot"
+      "registry_name": "golden_heart_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/loot_tables/chests/golden_heart_loot.json"
+        ]
+      }
     },
     {
       "name": "OvergrownDungeonLoot",
@@ -1234,7 +1560,12 @@
       "sortid": 86,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "overgrown_dungeon_loot"
+      "registry_name": "overgrown_dungeon_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/loot_tables/chests/overgrown_dungeon_loot.json"
+        ]
+      }
     },
     {
       "name": "OvergrownDungeonLoot1",
@@ -1242,7 +1573,12 @@
       "sortid": 87,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "overgrown_dungeon_loot_1"
+      "registry_name": "overgrown_dungeon_loot_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/loot_tables/chests/overgrown_dungeon_loot_1.json"
+        ]
+      }
     },
     {
       "name": "ElvenHideoutLoot",
@@ -1250,7 +1586,12 @@
       "sortid": 88,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elven_hideout_loot"
+      "registry_name": "elven_hideout_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/loot_tables/chests/elven_hideout_loot.json"
+        ]
+      }
     },
     {
       "name": "MinersHideoutmain",
@@ -1258,7 +1599,12 @@
       "sortid": 89,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "miners_hideout"
+      "registry_name": "miners_hideout",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/world/features/MinersHideoutmainFeature.java"
+        ]
+      }
     },
     {
       "name": "PillagerStationmain",
@@ -1266,7 +1612,12 @@
       "sortid": 90,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pillager_station"
+      "registry_name": "pillager_station",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/world/features/PillagerStationmainFeature.java"
+        ]
+      }
     },
     {
       "name": "SoulBunkerMain",
@@ -1274,7 +1625,12 @@
       "sortid": 91,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "soul_bunker"
+      "registry_name": "soul_bunker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/world/features/SoulBunkerMainFeature.java"
+        ]
+      }
     },
     {
       "name": "Wagonmain",
@@ -1282,7 +1638,12 @@
       "sortid": 92,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wagon"
+      "registry_name": "wagon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/world/features/WagonmainFeature.java"
+        ]
+      }
     },
     {
       "name": "GoldenHeartmain",
@@ -1290,7 +1651,12 @@
       "sortid": 93,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "golden_heart"
+      "registry_name": "golden_heart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/world/features/GoldenHeartmainFeature.java"
+        ]
+      }
     },
     {
       "name": "DesertRuinsmain",
@@ -1298,7 +1664,12 @@
       "sortid": 94,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "desert_ruins"
+      "registry_name": "desert_ruins",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/world/features/DesertRuinsmainFeature.java"
+        ]
+      }
     },
     {
       "name": "MysteriousEggmain",
@@ -1306,7 +1677,12 @@
       "sortid": 95,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mysterious_egg"
+      "registry_name": "mysterious_egg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/world/features/MysteriousEggmainFeature.java"
+        ]
+      }
     },
     {
       "name": "Labmain",
@@ -1314,7 +1690,12 @@
       "sortid": 96,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lab"
+      "registry_name": "lab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/world/features/LabmainFeature.java"
+        ]
+      }
     },
     {
       "name": "Cloudmain",
@@ -1322,7 +1703,12 @@
       "sortid": 97,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cloud"
+      "registry_name": "cloud",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/world/features/CloudmainFeature.java"
+        ]
+      }
     },
     {
       "name": "OvergrownDungeonmain",
@@ -1330,7 +1716,12 @@
       "sortid": 98,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "overgrown_dungeon"
+      "registry_name": "overgrown_dungeon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/world/features/OvergrownDungeonmainFeature.java"
+        ]
+      }
     },
     {
       "name": "ElvenHideoutmain",
@@ -1338,7 +1729,12 @@
       "sortid": 99,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elven_hideout"
+      "registry_name": "elven_hideout",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/world/features/ElvenHideoutmainFeature.java"
+        ]
+      }
     },
     {
       "name": "ShriekerBrute",
@@ -1346,7 +1742,13 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "shrieker_brute"
+      "registry_name": "shrieker_brute",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/item/ShriekerBruteItem.java",
+          "src/main/resources/assets/portdiscs/models/item/shrieker_brute.json"
+        ]
+      }
     },
     {
       "name": "TenKSpecial",
@@ -1354,7 +1756,13 @@
       "sortid": 100,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mashup_disc"
+      "registry_name": "mashup_disc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/item/TenKSpecialItem.java",
+          "src/main/resources/assets/portdiscs/models/item/mashup_disc.json"
+        ]
+      }
     },
     {
       "name": "Citrine",
@@ -1362,7 +1770,13 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "citrine"
+      "registry_name": "citrine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/item/CitrineItem.java",
+          "src/main/resources/assets/portdiscs/models/item/citrine.json"
+        ]
+      }
     },
     {
       "name": "Citrineore",
@@ -1370,7 +1784,16 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "citrineore"
+      "registry_name": "citrineore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/portdiscs/models/item/citrineore.json",
+          "src/main/resources/assets/portdiscs/blockstates/citrineore.json",
+          "src/main/resources/assets/portdiscs/models/block/citrineore.json",
+          "src/main/java/net/mojang/portdiscs/world/features/ores/CitrineoreFeature.java",
+          "src/main/java/net/mojang/portdiscs/block/CitrineoreBlock.java"
+        ]
+      }
     },
     {
       "name": "Citrineblock",
@@ -1378,7 +1801,15 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "citrineblock"
+      "registry_name": "citrineblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/portdiscs/models/item/citrineblock.json",
+          "src/main/resources/assets/portdiscs/blockstates/citrineblock.json",
+          "src/main/resources/assets/portdiscs/models/block/citrineblock.json",
+          "src/main/java/net/mojang/portdiscs/block/CitrineblockBlock.java"
+        ]
+      }
     },
     {
       "name": "CompressedCitrine",
@@ -1386,7 +1817,15 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "compressed_citrine"
+      "registry_name": "compressed_citrine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/portdiscs/blockstates/compressed_citrine.json",
+          "src/main/resources/assets/portdiscs/models/block/compressed_citrine.json",
+          "src/main/resources/assets/portdiscs/models/item/compressed_citrine.json",
+          "src/main/java/net/mojang/portdiscs/block/CompressedCitrineBlock.java"
+        ]
+      }
     },
     {
       "name": "FiveKDiscs",
@@ -1394,7 +1833,12 @@
       "sortid": 103,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "five_k_discs"
+      "registry_name": "five_k_discs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/loot_tables/entities/five_k_discs.json"
+        ]
+      }
     },
     {
       "name": "PearlWandRightclicked",
@@ -1404,6 +1848,9 @@
       "locked_code": false,
       "registry_name": "pearl_wand_rightclicked",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/PearlWandRightclickedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1440,6 +1887,9 @@
       "locked_code": false,
       "registry_name": "pearl_wand_living_entity_is_hit_with_item",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/PearlWandLivingEntityIsHitWithItemProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -1466,7 +1916,13 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pumpkin_tenm"
+      "registry_name": "pumpkin_tenm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/item/PumpkinTenmItem.java",
+          "src/main/resources/assets/portdiscs/models/item/pumpkin_tenm.json"
+        ]
+      }
     },
     {
       "name": "RaidersLivingEntityIsHitWithItem",
@@ -1476,6 +1932,9 @@
       "locked_code": false,
       "registry_name": "raiders_living_entity_is_hit_with_item",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/RaidersLivingEntityIsHitWithItemProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1492,6 +1951,9 @@
       "locked_code": false,
       "registry_name": "bad_omen_living_entity_is_hit_with_item",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/BadOmenLivingEntityIsHitWithItemProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1508,6 +1970,9 @@
       "locked_code": false,
       "registry_name": "husk_tenm_living_entity_is_hit_with_item",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/HuskTenmLivingEntityIsHitWithItemProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1524,6 +1989,9 @@
       "locked_code": false,
       "registry_name": "guardian_tenm_living_entity_is_hit_with_item",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/GuardianTenmLivingEntityIsHitWithItemProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1540,6 +2008,9 @@
       "locked_code": false,
       "registry_name": "stride_living_entity_is_hit_with_item",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/StrideLivingEntityIsHitWithItemProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1556,6 +2027,9 @@
       "locked_code": false,
       "registry_name": "the_ender_dragon_tenm_living_entity_is_hit_with_item",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/TheEnderDragonTenmLivingEntityIsHitWithItemProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1572,6 +2046,9 @@
       "locked_code": false,
       "registry_name": "the_wither_tenm_living_entity_is_hit_with_item",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/TheWitherTenmLivingEntityIsHitWithItemProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1588,6 +2065,9 @@
       "locked_code": false,
       "registry_name": "pumpkin_tenm_rightclicked",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/PumpkinTenmRightclickedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1604,6 +2084,9 @@
       "locked_code": false,
       "registry_name": "snowstorm_tenm_living_entity_is_hit_with_item",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/SnowstormTenmLivingEntityIsHitWithItemProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1618,7 +2101,15 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "soul_seeker_head"
+      "registry_name": "soul_seeker_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/portdiscs/models/item/soul_seeker_head.json",
+          "src/main/java/net/mojang/portdiscs/block/SoulSeekerHeadBlock.java",
+          "src/main/resources/assets/portdiscs/blockstates/soul_seeker_head.json",
+          "src/main/resources/assets/portdiscs/models/block/soul_seeker_head.json"
+        ]
+      }
     },
     {
       "name": "GunpowderBarrelSeafort",
@@ -1626,7 +2117,12 @@
       "sortid": 117,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gunpowder_barrel_seafort"
+      "registry_name": "gunpowder_barrel_seafort",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/loot_tables/chests/gunpowderbarrel_seafort_loot.json"
+        ]
+      }
     },
     {
       "name": "SupplyBarrelseafortloot",
@@ -1634,7 +2130,12 @@
       "sortid": 118,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "supply_barrelseafortloot"
+      "registry_name": "supply_barrelseafortloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/loot_tables/chests/supplybarrel_seafort_loot.json"
+        ]
+      }
     },
     {
       "name": "Treasurebarrelseafortloot",
@@ -1642,7 +2143,12 @@
       "sortid": 119,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "treasurebarrelseafortloot"
+      "registry_name": "treasurebarrelseafortloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/loot_tables/chests/treasurebarrel_seafort_loot.json"
+        ]
+      }
     },
     {
       "name": "StaffOfTrappedSouls",
@@ -1650,7 +2156,14 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "staff_of_trapped_souls"
+      "registry_name": "staff_of_trapped_souls",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/entity/StaffOfTrappedSoulsEntity.java",
+          "src/main/resources/assets/portdiscs/models/item/staff_of_trapped_souls.json",
+          "src/main/java/net/mojang/portdiscs/item/StaffOfTrappedSoulsItem.java"
+        ]
+      }
     },
     {
       "name": "StaffOfTrappedSoulsRangedItemUsed",
@@ -1660,6 +2173,9 @@
       "locked_code": false,
       "registry_name": "staff_of_trapped_souls_ranged_item_used",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/StaffOfTrappedSoulsRangedItemUsedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1692,6 +2208,9 @@
       "locked_code": false,
       "registry_name": "warden_run_tenm_living_entity_is_hit_with_item",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/WardenRunTenmLivingEntityIsHitWithItemProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1708,6 +2227,9 @@
       "locked_code": false,
       "registry_name": "staff_of_trapped_souls_projectile_hits_block",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/StaffOfTrappedSoulsProjectileHitsBlockProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1738,7 +2260,12 @@
       "sortid": 123,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "seafort"
+      "registry_name": "seafort",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/world/features/SeafortmainFeature.java"
+        ]
+      }
     },
     {
       "name": "CitrineoreLoot",
@@ -1746,7 +2273,12 @@
       "sortid": 124,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "citrineore_loot"
+      "registry_name": "citrineore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/loot_tables/blocks/citrine_ore_loot.json"
+        ]
+      }
     },
     {
       "name": "SummonSoulSeeker",
@@ -1756,6 +2288,9 @@
       "locked_code": false,
       "registry_name": "summon_soul_seeker",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/SummonSoulSeekerProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -1782,7 +2317,14 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "soul_seeker"
+      "registry_name": "soul_seeker",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/portdiscs/models/item/soul_seeker_spawn_egg.json",
+          "src/main/java/net/mojang/portdiscs/entity/SoulSeekerEntity.java",
+          "src/main/java/net/mojang/portdiscs/client/renderer/SoulSeekerRenderer.java"
+        ]
+      }
     },
     {
       "name": "SoulSeekerEntityIsHurt",
@@ -1792,6 +2334,9 @@
       "locked_code": false,
       "registry_name": "soul_seeker_entity_is_hurt",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/SoulSeekerEntityIsHurtProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -1818,7 +2363,12 @@
       "sortid": 128,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "soul_seeker_loot"
+      "registry_name": "soul_seeker_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/loot_tables/entities/soul_seeker.json"
+        ]
+      }
     },
     {
       "name": "StriderStablesnomain",
@@ -1826,7 +2376,12 @@
       "sortid": 129,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "strider_stablesnomain"
+      "registry_name": "strider_stablesnomain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/world/features/StriderStablesnomainFeature.java"
+        ]
+      }
     },
     {
       "name": "StriderStablesnomainLoot",
@@ -1834,7 +2389,12 @@
       "sortid": 130,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "strider_stablesnomain_loot"
+      "registry_name": "strider_stablesnomain_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/loot_tables/chests/strider_stables.json"
+        ]
+      }
     },
     {
       "name": "StaffOfDarkWoodsRightclicked",
@@ -1844,6 +2404,9 @@
       "locked_code": false,
       "registry_name": "staff_of_dark_woods_rightclicked",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/StaffOfDarkWoodsRightclickedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1880,6 +2443,9 @@
       "locked_code": false,
       "registry_name": "staff_of_dark_woods_rightclicked_on_block",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/StaffOfDarkWoodsRightclickedOnBlockProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1910,7 +2476,13 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "staff_of_dark_woods"
+      "registry_name": "staff_of_dark_woods",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/item/StaffOfDarkWoodsItem.java",
+          "src/main/resources/assets/portdiscs/models/item/staff_of_dark_woods.json"
+        ]
+      }
     },
     {
       "name": "UnlockRecipeKeyOnKeyPressed",
@@ -1920,6 +2492,9 @@
       "locked_code": false,
       "registry_name": "unlock_recipe_player_wakesup",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/UnlockRecipeKeyOnKeyPressedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1936,6 +2511,9 @@
       "locked_code": false,
       "registry_name": "pumpkin_run",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/PumpkinRunProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -1964,6 +2542,9 @@
       "locked_code": false,
       "registry_name": "soul_seeker_head_block_destroyed_by_explosion",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/SoulSeekerHeadBlockDestroyedByExplosionProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -1992,6 +2573,9 @@
       "locked_code": false,
       "registry_name": "time_tenm_rightclicked",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/TimeTenmRightclickedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "world",
@@ -2006,7 +2590,14 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "soulfish"
+      "registry_name": "soulfish",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/client/renderer/SoulfishRenderer.java",
+          "src/main/resources/assets/portdiscs/models/item/soulfish_spawn_egg.json",
+          "src/main/java/net/mojang/portdiscs/entity/SoulfishEntity.java"
+        ]
+      }
     },
     {
       "name": "Alldisc",
@@ -2014,7 +2605,13 @@
       "sortid": 139,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "alldisc"
+      "registry_name": "alldisc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/portdiscs/models/item/alldisc.json",
+          "src/main/java/net/mojang/portdiscs/item/AlldiscItem.java"
+        ]
+      }
     },
     {
       "name": "TheSoundOfMusic",
@@ -2022,7 +2619,12 @@
       "sortid": 140,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "the_sound_of_music"
+      "registry_name": "the_sound_of_music",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/the_sound_of_music.json"
+        ]
+      }
     },
     {
       "name": "SeekingSkulls",
@@ -2030,7 +2632,12 @@
       "sortid": 141,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "seeking_skulls"
+      "registry_name": "seeking_skulls",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/seeking_skulls.json"
+        ]
+      }
     },
     {
       "name": "MagicOfSouls",
@@ -2038,7 +2645,12 @@
       "sortid": 142,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "magic_of_souls"
+      "registry_name": "magic_of_souls",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/magic_of_souls.json"
+        ]
+      }
     },
     {
       "name": "SoundOfTheWoods",
@@ -2046,7 +2658,12 @@
       "sortid": 143,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sound_of_the_woods"
+      "registry_name": "sound_of_the_woods",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/sound_of_the_woods.json"
+        ]
+      }
     },
     {
       "name": "MagicOfTheWoods",
@@ -2054,7 +2671,12 @@
       "sortid": 144,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "magic_of_the_woods"
+      "registry_name": "magic_of_the_woods",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/magic_of_the_woods.json"
+        ]
+      }
     },
     {
       "name": "OvertuneAdv",
@@ -2062,7 +2684,12 @@
       "sortid": 145,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "overtune_adv"
+      "registry_name": "overtune_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/overtune_adv.json"
+        ]
+      }
     },
     {
       "name": "StrideAdv",
@@ -2070,7 +2697,12 @@
       "sortid": 146,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "stride_adv"
+      "registry_name": "stride_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/stride_adv.json"
+        ]
+      }
     },
     {
       "name": "BadOmenAdv",
@@ -2078,7 +2710,12 @@
       "sortid": 147,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bad_omen_adv"
+      "registry_name": "bad_omen_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/bad_omen_adv.json"
+        ]
+      }
     },
     {
       "name": "BruteAdv",
@@ -2086,7 +2723,12 @@
       "sortid": 148,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "brute_adv"
+      "registry_name": "brute_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/brute_adv.json"
+        ]
+      }
     },
     {
       "name": "UnderscoreAdv",
@@ -2094,7 +2736,12 @@
       "sortid": 149,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "underscore_adv"
+      "registry_name": "underscore_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/underscore_adv.json"
+        ]
+      }
     },
     {
       "name": "LuminousAdv",
@@ -2102,7 +2749,12 @@
       "sortid": 150,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "luminous_adv"
+      "registry_name": "luminous_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/luminous_adv.json"
+        ]
+      }
     },
     {
       "name": "SoullessAdv",
@@ -2110,7 +2762,12 @@
       "sortid": 151,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "soulless_adv"
+      "registry_name": "soulless_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/soulless_adv.json"
+        ]
+      }
     },
     {
       "name": "SnowstormAdv",
@@ -2118,7 +2775,12 @@
       "sortid": 152,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "snowstorm_adv"
+      "registry_name": "snowstorm_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/snowstorm_adv.json"
+        ]
+      }
     },
     {
       "name": "CometAdv",
@@ -2126,7 +2788,12 @@
       "sortid": 153,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "comet_adv"
+      "registry_name": "comet_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/comet_adv.json"
+        ]
+      }
     },
     {
       "name": "NorthenLightsAdv",
@@ -2134,7 +2801,12 @@
       "sortid": 154,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "northen_lights_adv"
+      "registry_name": "northen_lights_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/northen_lights_adv.json"
+        ]
+      }
     },
     {
       "name": "LightningAdv",
@@ -2142,7 +2814,12 @@
       "sortid": 155,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lightning_adv"
+      "registry_name": "lightning_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/lightning_adv.json"
+        ]
+      }
     },
     {
       "name": "SleighAdv",
@@ -2150,7 +2827,12 @@
       "sortid": 156,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sleigh_adv"
+      "registry_name": "sleigh_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/sleigh_adv.json"
+        ]
+      }
     },
     {
       "name": "AliveAdv",
@@ -2158,7 +2840,12 @@
       "sortid": 157,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "alive_adv"
+      "registry_name": "alive_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/alive_adv.json"
+        ]
+      }
     },
     {
       "name": "CascadeAdv",
@@ -2166,7 +2853,12 @@
       "sortid": 158,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cascade_adv"
+      "registry_name": "cascade_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/cascade_adv.json"
+        ]
+      }
     },
     {
       "name": "GlideAdv",
@@ -2174,7 +2866,12 @@
       "sortid": 159,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "glide_adv"
+      "registry_name": "glide_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/glide_adv.json"
+        ]
+      }
     },
     {
       "name": "HuskAdv",
@@ -2182,7 +2879,12 @@
       "sortid": 160,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "husk_adv"
+      "registry_name": "husk_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/husk_adv.json"
+        ]
+      }
     },
     {
       "name": "TimeAdv",
@@ -2190,7 +2892,12 @@
       "sortid": 161,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "time_adv"
+      "registry_name": "time_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/time_adv.json"
+        ]
+      }
     },
     {
       "name": "ShriekerAdv",
@@ -2198,7 +2905,12 @@
       "sortid": 162,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "shrieker_adv"
+      "registry_name": "shrieker_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/shrieker_adv.json"
+        ]
+      }
     },
     {
       "name": "WardenRunAdv",
@@ -2206,7 +2918,12 @@
       "sortid": 163,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "warden_run_adv"
+      "registry_name": "warden_run_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/warden_run_adv.json"
+        ]
+      }
     },
     {
       "name": "OchreAdv",
@@ -2214,7 +2931,12 @@
       "sortid": 164,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ochre_adv"
+      "registry_name": "ochre_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/ochre_adv.json"
+        ]
+      }
     },
     {
       "name": "ShriekerXBruteAdv",
@@ -2222,7 +2944,12 @@
       "sortid": 165,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "shrieker_x_brute_adv"
+      "registry_name": "shrieker_x_brute_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/shrieker_x_brute_adv.json"
+        ]
+      }
     },
     {
       "name": "ThunderstormAdv",
@@ -2230,7 +2957,12 @@
       "sortid": 166,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "thunderstorm_adv"
+      "registry_name": "thunderstorm_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/thunderstorm_adv.json"
+        ]
+      }
     },
     {
       "name": "WitherAdv",
@@ -2238,7 +2970,12 @@
       "sortid": 167,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wither_adv"
+      "registry_name": "wither_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/wither_adv.json"
+        ]
+      }
     },
     {
       "name": "RaidersAdv",
@@ -2246,7 +2983,12 @@
       "sortid": 168,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "raiders_adv"
+      "registry_name": "raiders_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/raiders_adv.json"
+        ]
+      }
     },
     {
       "name": "EnderdragonAdv",
@@ -2254,7 +2996,12 @@
       "sortid": 169,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "enderdragon_adv"
+      "registry_name": "enderdragon_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/enderdragon_adv.json"
+        ]
+      }
     },
     {
       "name": "MashupAdv",
@@ -2262,7 +3009,12 @@
       "sortid": 170,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mashup_adv"
+      "registry_name": "mashup_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/mashup_adv.json"
+        ]
+      }
     },
     {
       "name": "GuardianAdv",
@@ -2270,7 +3022,12 @@
       "sortid": 171,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "guardian_adv"
+      "registry_name": "guardian_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/guardian_adv.json"
+        ]
+      }
     },
     {
       "name": "TheSoundOfMusicCode",
@@ -2280,6 +3037,9 @@
       "locked_code": false,
       "registry_name": "the_sound_of_music_code",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/TheSoundOfMusicCodeProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -2294,7 +3054,12 @@
       "sortid": 173,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pumpkin_adv"
+      "registry_name": "pumpkin_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/pumpkin_adv.json"
+        ]
+      }
     },
     {
       "name": "LeaveShooterProjectileHitsLivingEntity",
@@ -2304,6 +3069,9 @@
       "locked_code": false,
       "registry_name": "leave_shooter_projectile_hits_living_entity",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/LeaveShooterProjectileHitsLivingEntityProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -2318,7 +3086,13 @@
       "sortid": 175,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "leave"
+      "registry_name": "leave",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/portdiscs/models/item/leave.json",
+          "src/main/java/net/mojang/portdiscs/item/LeaveItem.java"
+        ]
+      }
     },
     {
       "name": "LeaveShooter",
@@ -2326,7 +3100,14 @@
       "sortid": 176,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "leave_shooter"
+      "registry_name": "leave_shooter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/item/LeaveShooterItem.java",
+          "src/main/resources/assets/portdiscs/models/item/leave_shooter.json",
+          "src/main/java/net/mojang/portdiscs/entity/LeaveShooterEntity.java"
+        ]
+      }
     },
     {
       "name": "ShulkerTenm",
@@ -2334,7 +3115,13 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "shulker_tenm"
+      "registry_name": "shulker_tenm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/item/ShulkerTenmItem.java",
+          "src/main/resources/assets/portdiscs/models/item/shulker_tenm.json"
+        ]
+      }
     },
     {
       "name": "ShulkerAdv",
@@ -2342,7 +3129,12 @@
       "sortid": 177,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "shulker_adv"
+      "registry_name": "shulker_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/portdiscs/advancements/shulker_adv.json"
+        ]
+      }
     },
     {
       "name": "BruteTenm",
@@ -2350,7 +3142,13 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "brute_tenm"
+      "registry_name": "brute_tenm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/item/BruteTenmItem.java",
+          "src/main/resources/assets/portdiscs/models/item/brute_tenm.json"
+        ]
+      }
     },
     {
       "name": "CitrineBlockRecipe",
@@ -2440,10 +3238,17 @@
       "locked_code": false,
       "registry_name": "staff_minion_on_initial_entity_spawn",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/StaffMinionOnInitialEntitySpawnProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -2454,7 +3259,13 @@
       "sortid": 189,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "staff_minion"
+      "registry_name": "staff_minion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/entity/StaffMinionEntity.java",
+          "src/main/java/net/mojang/portdiscs/client/renderer/StaffMinionRenderer.java"
+        ]
+      }
     },
     {
       "name": "SoulSeekerPlayerCollidesWithThisEntity",
@@ -2464,6 +3275,9 @@
       "locked_code": false,
       "registry_name": "soul_seeker_player_collides_with_this_entity",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/SoulSeekerPlayerCollidesWithThisEntityProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -2484,6 +3298,9 @@
       "locked_code": false,
       "registry_name": "staff_of_trapped_souls_entity_swings_item",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/StaffOfTrappedSoulsEntitySwingsItemProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -2516,6 +3333,9 @@
       "locked_code": false,
       "registry_name": "staff_of_trapped_souls_while_projectile_flying_tick",
       "metadata": {
+        "files": [
+          "src/main/java/net/mojang/portdiscs/procedures/StaffOfTrappedSoulsWhileProjectileFlyingTickProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -2805,6 +3625,7 @@
       "advancements.sleigh_adv.title": "Flying on The Sleigh",
       "item.portdiscs.shrieker_tenm": "Shrieker",
       "advancements.sound_of_the_woods.descr": "Obtain the Forest Music Disc",
+      "gui.portdiscs.music_box_gui_2.button_time": "Time",
       "advancements.warden_run_adv.descr": "Obtain The Warden Run Disc",
       "item.conceptdiscs.husk_tenm": "Husk",
       "item.portdiscs.sleigh_tenm.desc": "Sleigh - T_en_M",
@@ -2814,23 +3635,29 @@
       "item.conceptdiscs.luminous_tenm.desc": "Luminous - T_en_M",
       "item.concpetdiscs.guardian_tenm": "Guardian ",
       "item.concpetdiscs.alivetenm.desc": "Alive - T_en_M",
+      "gui.portdiscs.music_box_gui.button_husk": "Husk",
       "item.conceptdiscs.sleigh_tenm": "Sleigh",
       "advancements.ochre_adv.descr": "Obtain The Ochre Disc",
       "subtitles.musicdisc_t_en_m": "",
+      "gui.portdiscs.music_box_gui_2.button_stride": "Stride",
       "item.concpetdiscs.glide_tenm.desc": "Glide - T_en_M",
       "item.conceptdiscs.stride.desc": "Stride - T_en_M",
       "advancements.brute_adv.title": "Forged In Gold",
+      "gui.portdiscs.music_box_gui.button_raiders": "Raiders",
+      "gui.portdiscs.music_box_gui_2.button_snowstorm": "Snowstorm",
       "advancements.time_adv.title": "Forgotten Time",
       "item.concpetdiscs.comet_tenm": "Comet",
       "advancements.underscore_adv.title": "Up and Under",
       "subtitles.pumpkin": "",
       "item.conceptdiscs.guardian_tenm.desc": "Guardian - T_en_M",
+      "gui.portdiscs.music_box_gui.button_brute": "Brute",
       "subtitles.overtune": "",
       "block.concpetdiscs.music_box": "Music Box",
       "item.concpetdiscs.luminous_tenm.desc": "Luminous - T_en_M",
       "entity.portdiscs.soul_seeker": "Soul Seeker",
       "advancements.shrieker_adv.descr": "Obtain The Shrieker Disc",
       "item.concpetdiscs.stride": "Stride",
+      "gui.portdiscs.music_box_gui.button_glide": "Glide",
       "advancements.husk_adv.title": "Music Of The Husks",
       "advancements.stride_adv.descr": "Obtain The Stride Disc",
       "advancements.wither_adv.descr": "Obtain The Wither Disc",
@@ -2854,12 +3681,15 @@
       "item.portdiscs.thunderstorm_tenm": "Music Disc",
       "item.portdiscs.glide_tenm.desc": "Glide - T_en_M",
       "item.concpetdiscs.the_ender_dragon_tenm": "The Ender Dragon",
+      "gui.portdiscs.music_box_gui.label_music_box_click_to_play_the_mus": "Music Box (Click to play the music)",
       "advancements.seeking_skulls.descr": "Obtain a Seeker\u0027s Skull",
       "item.concpetdiscs.the_wither_tenm.desc": "The Wither - T_en_M",
+      "gui.portdiscs.music_box_gui.button_cascade": "Cascade",
       "subtitles.comet": "",
       "itemGroup.concpetdiscs.mojang_concept_discs": "Infoy\u0027s Concept Discs",
       "item.concpetdiscs.husk_tenm": "Husk",
       "item.portdiscs.pumpkin_tenm.desc": "Pumpkin - T_en_M",
+      "gui.portdiscs.music_box_gui_2.button_the_wither": "The Wither",
       "item.concpetdiscs.snowstorm_tenm.desc": "Snowstorm - T_en_M",
       "item.conceptdiscs.raiders": "Raiders",
       "item.concpetdiscs.lighting_tenm.desc": "Lighting - T_en_M",
@@ -2870,6 +3700,7 @@
       "item.conceptdiscs.comet_tenm.desc": "Comet - T_en_M",
       "item.portdiscs.the_wither_tenm": "The Wither",
       "item.portdiscs.pumpkin_tenm": "Pumpkin",
+      "gui.portdiscs.music_box_gui_2.button_underscore": "Underscore",
       "item.conceptdiscs.nothern_lights_tenm": "Nothern Lights",
       "item.conceptdiscs.lighting_tenm": "Lighting",
       "advancements.pumpkin_adv.descr": "Obtain The Pumpkin Disc",
@@ -2886,6 +3717,7 @@
       "item.conceptdiscs.snowstorm_tenm": "Snowstorm",
       "advancements.magic_of_the_woods.descr": "Obtain a \u0027Staff of The Dark Woods\u0027",
       "advancements.enderdragon_adv.descr": "Obtain The Ender Dragon Disc",
+      "gui.portdiscs.music_box_gui_2.button_prev": "PREV",
       "item.concpetdiscs.the_wither_tenm": "The Wither",
       "item.portdiscs.ochre_tenm": "Ochre",
       "advancements.cascade_adv.descr": "Obtain The Cascade Disc",
@@ -2901,6 +3733,7 @@
       "item.conceptdiscs.alivetenm.desc": "Alive - T_en_M",
       "advancements.magic_of_souls.title": "Magic Of Souls",
       "item.portdiscs.luminous_tenm": "Luminous",
+      "gui.portdiscs.music_box_gui.button_next": "NEXT",
       "subtitles.time_t_en_m": "",
       "item.portdiscs.nothern_lights_tenm.desc": "Nothern Lights - T_en_M",
       "subtitles.husk": "",
@@ -2910,6 +3743,7 @@
       "item.conceptdiscs.underscore_tenm": "Underscore",
       "advancements.seeking_skulls.title": "Seeking Skulls",
       "item.portdiscs.warden_run_tenm.desc": "Warden Run - T_en_M",
+      "gui.portdiscs.music_box_gui.button_shrieker": "Shrieker",
       "advancements.thunderstorm_adv.title": "Clouds Are Gathering, A Storm Is Forming...",
       "advancements.overtune_adv.title": "Overtunit",
       "item.conceptdiscs.cascade_tenm.desc": "Cascade - T_en_M",
@@ -2933,8 +3767,10 @@
       "item.portdiscs.husk_tenm.desc": "Husk - T_en_m",
       "item.concpetdiscs.ochre_tenm.desc": "Ochre - T_en_M",
       "item.conceptdiscs.husk_tenm.desc": "Husk - T_en_m",
+      "gui.portdiscs.music_box_gui.button_guardian": "Guardian",
       "item.concpetdiscs.ochre_tenm": "Ochre",
       "advancements.luminous_adv.title": "Illuminating",
+      "gui.portdiscs.music_box_gui.button_forest": "Forest",
       "item.conceptdiscs.lush_gt.desc": "Lush - GamingTunes",
       "item.portdiscs.mashup_disc": "5K/10K Mashup",
       "block.portdiscs.citrineore": "Citrine ore",
@@ -2944,6 +3780,7 @@
       "item.concpetdiscs.raiders": "Raiders",
       "item.conceptdiscs.warden_run_tenm": "Warden Run",
       "advancements.pumpkin_adv.title": "Do not eat it ",
+      "gui.portdiscs.music_box_gui.button_lightning": "Lightning",
       "entity.portdiscs.soulfish": "Soulfish",
       "advancements.lightning_adv.title": "Storm Coming!",
       "subtitles.shrieker_x_brute": "",
@@ -2977,6 +3814,7 @@
       "item.conceptdiscs.nothern_lights_tenm.desc": "Nothern Lights - T_en_M",
       "item.concpetdiscs.storm_tenm.desc": "Storm - T_en_M",
       "item.concpetdiscs.brute_tenm": "Brute",
+      "gui.portdiscs.music_box_gui.button_sleigh": "Sleigh",
       "subtitles.cascade": "",
       "block.portdiscs.compressed_citrine": "Compressed Citrine",
       "subtitles.raiders": "",
@@ -2987,6 +3825,7 @@
       "item.portdiscs.guardian_tenm.desc": "Guardian - T_en_M",
       "item.portdiscs.shrieker_brute.desc": "Shrieker x Brute - T_en_M",
       "advancements.soulless_adv.title": "Wither\u0027s Treasure",
+      "gui.portdiscs.music_box_gui.button_comet": "Comet",
       "item.portdiscs.forest_tenm": "Forest",
       "item.portdiscs.staff_minion_spawn_egg": "Staff Minion Spawn Egg",
       "subtitles.ochre": "",
@@ -3006,6 +3845,7 @@
       "item.conceptdiscs.the_wither_tenm.desc": "The Wither - T_en_M",
       "subtitles.glide": "",
       "item.portdiscs.raiders_tenm.desc": "Raiders - T_en_M",
+      "gui.portdiscs.music_box_gui_2.button_soulless": "Soulless",
       "advancements.alive_adv.descr": "Obtain The Alive Disc",
       "item.conceptdiscs.forest_tenm.desc": "Forest - T_en_M",
       "subtitles.shulker": "Shulker Plays",
@@ -3016,8 +3856,11 @@
       "item.conceptdiscs.cascade_tenm": "Cascade ",
       "advancements.shulker_adv.descr": "Obtain a Shulker Disc",
       "advancements.lightning_adv.descr": "Obtain The Lightning Disc",
+      "gui.portdiscs.music_box_gui.label_play_musics": "Play Musics:",
       "advancements.sound_of_the_woods.title": "Sound Of The Woods",
       "item.portdiscs.staff_of_dark_woods": "Staff Of Dark Woods",
+      "gui.portdiscs.music_box_gui.button_luminous": "Luminous",
+      "gui.portdiscs.music_box_gui_2.button_pumpkin": "Pumpkin",
       "item.concpetdiscs.nothern_lights_tenm.desc": "Nothern Lights - T_en_M",
       "item.portdiscs.stride_tenm": "Stride",
       "item.portdiscs.alivetenm": "Alive",
@@ -3029,12 +3872,14 @@
       "item.portdiscs.alivetenm.desc": "Alive - T_en_M",
       "item.portdiscs.soulfish_spawn_egg": "Soulfish Spawn Egg",
       "advancements.comet_adv.descr": "Obtain The Comet Disc",
+      "gui.portdiscs.music_box_gui.button_northern_lights": "Northern Lights",
       "item.conceptdiscs.time_tenm": "Time",
       "advancements.raiders_adv.title": "How did they get this?",
       "item.portdiscs.stride_tenm.desc": "Stride - T_en_M",
       "item.concpetdiscs.lighting_tenm": "Lighting",
       "advancements.northen_lights_adv.descr": "Obtain The Northen Lights Disc",
       "advancements.warden_run_adv.title": "Warden, RUN!",
+      "gui.portdiscs.music_box_gui.button_ochre": "Ochre",
       "advancements.overtune_adv.descr": "Obtain The Overtune Disc",
       "item.portdiscs.husk_tenm": "Husk",
       "subtitles.alive": "",
@@ -3061,17 +3906,22 @@
       "subtitles.lighting_bolt": "",
       "item.conceptdiscs.stride": "Stride",
       "item.concpetdiscs.shrieker": "Shrieker",
+      "gui.portdiscs.music_box_gui.button_alive": "Alive",
       "item.conceptdiscs.alivetenm": "Alive",
       "item.conceptdiscs.storm_tenm": "Storm",
+      "gui.portdiscs.music_box_gui_2.button_warden_run": "Warden Run",
       "item.concpetdiscs.time_tenm": "Time",
       "subtitles.mashup_tune": "Mashup Disc Plays",
       "advancements.enderdragon_adv.title": "Why do i hear boss music?",
+      "gui.portdiscs.music_box_gui_2.button_storm": "Storm",
       "item.concpetdiscs.forest_tenm": "Forest",
       "item.portdiscs.underscore_tenm": "Underscore",
+      "gui.portdiscs.music_box_gui_2.button_the_ender_dragon": "The Ender Dragon",
       "subtitles.luminous": "",
       "item.portdiscs.shrieker_tenm.desc": "Shrieker - T_en_M",
       "item.portdiscs.alldisc": "AllDisc",
       "advancements.guardian_adv.title": "Very Guarded",
+      "gui.portdiscs.music_box_gui.label_click_button_another_when_first": "[Click button another when first music ends!]",
       "item.conceptdiscs.the_ender_dragon_tenm": "The Ender Dragon",
       "advancements.the_sound_of_music.title": "The Sound Of Music",
       "item.portdiscs.snowstorm_tenm": "Snowstorm",
@@ -3080,6 +3930,7 @@
       "advancements.underscore_adv.descr": "Obtain The Underscore Disc",
       "item.concpetdiscs.sleigh_tenm": "Sleigh",
       "item.portdiscs.lightning_tenm": "Lighting",
+      "gui.portdiscs.music_box_gui.button_overtune": "Overtune",
       "subtitles.northern_lights": "",
       "advancements.magic_of_the_woods.title": "Magic Of The Woods",
       "item.portdiscs.brute_tenm.desc": "T_en_M - Brute",
@@ -3096,6 +3947,7 @@
       "advancements.sleigh_adv.title": "Flying on The Sleigh",
       "item.portdiscs.shrieker_tenm": "Music Disc",
       "advancements.sound_of_the_woods.descr": "Obtain the Forest Music Disc",
+      "gui.portdiscs.music_box_gui_2.button_time": "Time",
       "advancements.warden_run_adv.descr": "Obtain The Warden Run Disc",
       "item.conceptdiscs.husk_tenm": "Husk",
       "item.portdiscs.sleigh_tenm.desc": "T_en_M - Sleigh",
@@ -3105,23 +3957,29 @@
       "item.conceptdiscs.luminous_tenm.desc": "Luminous - T_en_M",
       "item.concpetdiscs.guardian_tenm": "Guardian ",
       "item.concpetdiscs.alivetenm.desc": "Alive - T_en_M",
+      "gui.portdiscs.music_box_gui.button_husk": "Husk",
       "item.conceptdiscs.sleigh_tenm": "Sleigh",
       "advancements.ochre_adv.descr": "Obtain The Ochre Disc",
       "subtitles.musicdisc_t_en_m": "",
+      "gui.portdiscs.music_box_gui_2.button_stride": "Stride",
       "item.concpetdiscs.glide_tenm.desc": "Glide - T_en_M",
       "item.conceptdiscs.stride.desc": "Stride - T_en_M",
       "advancements.brute_adv.title": "Forged In Gold",
+      "gui.portdiscs.music_box_gui.button_raiders": "Raiders",
+      "gui.portdiscs.music_box_gui_2.button_snowstorm": "Snowstorm",
       "advancements.time_adv.title": "Forgotten Time",
       "item.concpetdiscs.comet_tenm": "Comet",
       "advancements.underscore_adv.title": "Up and Under",
       "subtitles.pumpkin": "Pumpkin Plays",
       "item.conceptdiscs.guardian_tenm.desc": "Guardian - T_en_M",
+      "gui.portdiscs.music_box_gui.button_brute": "Brute",
       "subtitles.overtune": "Overtune Plays",
       "block.concpetdiscs.music_box": "Music Box",
       "item.concpetdiscs.luminous_tenm.desc": "Luminous - T_en_M",
       "entity.portdiscs.soul_seeker": "Soul Seeker",
       "advancements.shrieker_adv.descr": "Obtain The Shrieker Disc",
       "item.concpetdiscs.stride": "Stride",
+      "gui.portdiscs.music_box_gui.button_glide": "Glide",
       "advancements.husk_adv.title": "Music Of The Husks",
       "advancements.stride_adv.descr": "Obtain The Stride Disc",
       "advancements.wither_adv.descr": "Obtain The Wither Disc",
@@ -3145,12 +4003,15 @@
       "item.portdiscs.thunderstorm_tenm": "Music Disc",
       "item.portdiscs.glide_tenm.desc": "T_en_M \u0026 2R8B7 - Glide",
       "item.concpetdiscs.the_ender_dragon_tenm": "The Ender Dragon",
+      "gui.portdiscs.music_box_gui.label_music_box_click_to_play_the_mus": "Music Box (Click to play the music)",
       "advancements.seeking_skulls.descr": "Obtain a Seeker\u0027s Skull",
       "item.concpetdiscs.the_wither_tenm.desc": "The Wither - T_en_M",
+      "gui.portdiscs.music_box_gui.button_cascade": "Cascade",
       "subtitles.comet": "Comet Plays",
       "itemGroup.concpetdiscs.mojang_concept_discs": "Infoy\u0027s Concept Discs",
       "item.concpetdiscs.husk_tenm": "Husk",
       "item.portdiscs.pumpkin_tenm.desc": "T_en_M - Pumpkin",
+      "gui.portdiscs.music_box_gui_2.button_the_wither": "The Wither",
       "item.concpetdiscs.snowstorm_tenm.desc": "Snowstorm - T_en_M",
       "item.conceptdiscs.raiders": "Raiders",
       "item.concpetdiscs.lighting_tenm.desc": "Lighting - T_en_M",
@@ -3161,6 +4022,7 @@
       "item.conceptdiscs.comet_tenm.desc": "Comet - T_en_M",
       "item.portdiscs.the_wither_tenm": "Music Disc",
       "item.portdiscs.pumpkin_tenm": "Music Disc",
+      "gui.portdiscs.music_box_gui_2.button_underscore": "Underscore",
       "item.conceptdiscs.nothern_lights_tenm": "Nothern Lights",
       "item.conceptdiscs.lighting_tenm": "Lighting",
       "advancements.pumpkin_adv.descr": "Obtain The Pumpkin Disc",
@@ -3177,6 +4039,7 @@
       "item.conceptdiscs.snowstorm_tenm": "Snowstorm",
       "advancements.magic_of_the_woods.descr": "Obtain a \u0027Staff of The Dark Woods\u0027",
       "advancements.enderdragon_adv.descr": "Obtain The Ender Dragon Disc",
+      "gui.portdiscs.music_box_gui_2.button_prev": "PREV",
       "item.concpetdiscs.the_wither_tenm": "The Wither",
       "item.portdiscs.ochre_tenm": "Music Disc",
       "advancements.cascade_adv.descr": "Obtain The Cascade Disc",
@@ -3192,6 +4055,7 @@
       "item.conceptdiscs.alivetenm.desc": "Alive - T_en_M",
       "advancements.magic_of_souls.title": "Magic Of Souls",
       "item.portdiscs.luminous_tenm": "Music Disc",
+      "gui.portdiscs.music_box_gui.button_next": "NEXT",
       "subtitles.time_t_en_m": "Time Plays",
       "item.portdiscs.nothern_lights_tenm.desc": "T_en_M - Northern Lights",
       "subtitles.husk": "Husk Plays",
@@ -3201,6 +4065,7 @@
       "item.conceptdiscs.underscore_tenm": "Underscore",
       "advancements.seeking_skulls.title": "Seeking Skulls",
       "item.portdiscs.warden_run_tenm.desc": "T_en_M - Warden Run",
+      "gui.portdiscs.music_box_gui.button_shrieker": "Shrieker",
       "advancements.thunderstorm_adv.title": "Clouds Are Gathering, A Storm Is Forming...",
       "advancements.overtune_adv.title": "Overtunit",
       "item.conceptdiscs.cascade_tenm.desc": "Cascade - T_en_M",
@@ -3224,8 +4089,10 @@
       "item.portdiscs.husk_tenm.desc": "T_en_M - Husk",
       "item.concpetdiscs.ochre_tenm.desc": "Ochre - T_en_M",
       "item.conceptdiscs.husk_tenm.desc": "Husk - T_en_m",
+      "gui.portdiscs.music_box_gui.button_guardian": "Guardian",
       "item.concpetdiscs.ochre_tenm": "Ochre",
       "advancements.luminous_adv.title": "Illuminating",
+      "gui.portdiscs.music_box_gui.button_forest": "Forest",
       "item.conceptdiscs.lush_gt.desc": "Lush - GamingTunes",
       "item.portdiscs.mashup_disc": "Music Disc",
       "block.portdiscs.citrineore": "Citrine ore",
@@ -3235,6 +4102,7 @@
       "item.concpetdiscs.raiders": "Raiders",
       "item.conceptdiscs.warden_run_tenm": "Warden Run",
       "advancements.pumpkin_adv.title": "Do not eat it!",
+      "gui.portdiscs.music_box_gui.button_lightning": "Lightning",
       "entity.portdiscs.soulfish": "Soulfish",
       "advancements.lightning_adv.title": "Storm Coming!",
       "subtitles.shrieker_x_brute": "Shrieker X Brute Plays",
@@ -3268,6 +4136,7 @@
       "item.conceptdiscs.nothern_lights_tenm.desc": "Nothern Lights - T_en_M",
       "item.concpetdiscs.storm_tenm.desc": "Storm - T_en_M",
       "item.concpetdiscs.brute_tenm": "Brute",
+      "gui.portdiscs.music_box_gui.button_sleigh": "Sleigh",
       "subtitles.cascade": "Cascade Plays",
       "block.portdiscs.compressed_citrine": "Compressed Citrine Block",
       "subtitles.raiders": "Raiders Plays",
@@ -3278,6 +4147,7 @@
       "item.portdiscs.guardian_tenm.desc": "T_en_M - Guardian",
       "item.portdiscs.shrieker_brute.desc": "T_en_M - Shrieker X Brute",
       "advancements.soulless_adv.title": "Wither\u0027s Treasure",
+      "gui.portdiscs.music_box_gui.button_comet": "Comet",
       "item.portdiscs.forest_tenm": "Music Disc",
       "item.portdiscs.staff_minion_spawn_egg": "Staff Minion Spawn Egg",
       "subtitles.ochre": "Ochre Plays",
@@ -3297,6 +4167,7 @@
       "item.conceptdiscs.the_wither_tenm.desc": "The Wither - T_en_M",
       "subtitles.glide": "Glide Plays",
       "item.portdiscs.raiders_tenm.desc": "T_en_M - Raiders",
+      "gui.portdiscs.music_box_gui_2.button_soulless": "Soulless",
       "advancements.alive_adv.descr": "Obtain The Alive Disc",
       "item.conceptdiscs.forest_tenm.desc": "Forest - T_en_M",
       "subtitles.shulker": "Shulker Plays",
@@ -3307,8 +4178,11 @@
       "item.conceptdiscs.cascade_tenm": "Cascade ",
       "advancements.shulker_adv.descr": "Obtain a Shulker Disc",
       "advancements.lightning_adv.descr": "Obtain The Lightning Disc",
+      "gui.portdiscs.music_box_gui.label_play_musics": "Play Musics:",
       "advancements.sound_of_the_woods.title": "Sound Of The Woods",
       "item.portdiscs.staff_of_dark_woods": "Staff Of Dark Woods",
+      "gui.portdiscs.music_box_gui.button_luminous": "Luminous",
+      "gui.portdiscs.music_box_gui_2.button_pumpkin": "Pumpkin",
       "item.concpetdiscs.nothern_lights_tenm.desc": "Nothern Lights - T_en_M",
       "item.portdiscs.stride_tenm": "Music Disc",
       "item.portdiscs.alivetenm": "Music Disc",
@@ -3320,12 +4194,14 @@
       "item.portdiscs.alivetenm.desc": "T_en_M - Alive",
       "item.portdiscs.soulfish_spawn_egg": "Soulfish Spawn Egg",
       "advancements.comet_adv.descr": "Obtain The Comet Disc",
+      "gui.portdiscs.music_box_gui.button_northern_lights": "Northern Lights",
       "item.conceptdiscs.time_tenm": "Time",
       "advancements.raiders_adv.title": "How did they get this?",
       "item.portdiscs.stride_tenm.desc": "T_en_M - Stride",
       "item.concpetdiscs.lighting_tenm": "Lighting",
       "advancements.northen_lights_adv.descr": "Obtain The Northen Lights Disc",
       "advancements.warden_run_adv.title": "Warden, RUN!",
+      "gui.portdiscs.music_box_gui.button_ochre": "Ochre",
       "advancements.overtune_adv.descr": "Obtain The Overtune Disc",
       "item.portdiscs.husk_tenm": "Music Disc",
       "subtitles.alive": "Alive Plays",
@@ -3352,17 +4228,22 @@
       "subtitles.lighting_bolt": "Lightning-Bolt Plays",
       "item.conceptdiscs.stride": "Stride",
       "item.concpetdiscs.shrieker": "Shrieker",
+      "gui.portdiscs.music_box_gui.button_alive": "Alive",
       "item.conceptdiscs.alivetenm": "Alive",
       "item.conceptdiscs.storm_tenm": "Storm",
+      "gui.portdiscs.music_box_gui_2.button_warden_run": "Warden Run",
       "item.concpetdiscs.time_tenm": "Time",
       "subtitles.mashup_tune": "Mashup Disc Plays",
       "advancements.enderdragon_adv.title": "Why do i hear boss music?",
+      "gui.portdiscs.music_box_gui_2.button_storm": "Storm",
       "item.concpetdiscs.forest_tenm": "Forest",
       "item.portdiscs.underscore_tenm": "Music Disc",
+      "gui.portdiscs.music_box_gui_2.button_the_ender_dragon": "The Ender Dragon",
       "subtitles.luminous": "Luminous Plays",
       "item.portdiscs.shrieker_tenm.desc": "T_en_M - Shrieker",
       "item.portdiscs.alldisc": "reward.alldisc.advancement.logo",
       "advancements.guardian_adv.title": "Very Guarded",
+      "gui.portdiscs.music_box_gui.label_click_button_another_when_first": "[Click button another when first music ends!]",
       "item.conceptdiscs.the_ender_dragon_tenm": "The Ender Dragon",
       "advancements.the_sound_of_music.title": "The Sound Of Music",
       "item.portdiscs.snowstorm_tenm": "Music Disc",
@@ -3371,6 +4252,7 @@
       "advancements.underscore_adv.descr": "Obtain The Underscore Disc",
       "item.concpetdiscs.sleigh_tenm": "Sleigh",
       "item.portdiscs.lightning_tenm": "Music Disc",
+      "gui.portdiscs.music_box_gui.button_overtune": "Overtune",
       "subtitles.northern_lights": "Northern Lights Plays",
       "advancements.magic_of_the_woods.title": "Magic Of The Woods",
       "item.portdiscs.brute_tenm.desc": "T_en_M - Brute",
@@ -3387,6 +4269,7 @@
       "advancements.sleigh_adv.title": "Flying on The Sleigh",
       "advancements.sound_of_the_woods.descr": "Obtain the Forest Music Disc",
       "item.portdiscs.shrieker_tenm": "Shrieker",
+      "gui.portdiscs.music_box_gui_2.button_time": "Time",
       "advancements.warden_run_adv.descr": "Obtain The Warden Run Disc",
       "item.conceptdiscs.husk_tenm": "Husk",
       "item.portdiscs.sleigh_tenm.desc": "Sleigh - T_en_M",
@@ -3396,23 +4279,29 @@
       "item.conceptdiscs.luminous_tenm.desc": "Luminous - T_en_M",
       "item.concpetdiscs.guardian_tenm": "Guardian ",
       "item.concpetdiscs.alivetenm.desc": "Alive - T_en_M",
+      "gui.portdiscs.music_box_gui.button_husk": "Husk",
       "item.conceptdiscs.sleigh_tenm": "Sleigh",
       "advancements.ochre_adv.descr": "Obtain The Ochre Disc",
       "subtitles.musicdisc_t_en_m": "",
+      "gui.portdiscs.music_box_gui_2.button_stride": "Stride",
       "item.concpetdiscs.glide_tenm.desc": "Glide - T_en_M",
       "item.conceptdiscs.stride.desc": "Stride - T_en_M",
       "advancements.brute_adv.title": "Forged In Gold",
+      "gui.portdiscs.music_box_gui.button_raiders": "Raiders",
+      "gui.portdiscs.music_box_gui_2.button_snowstorm": "Snowstorm",
       "item.concpetdiscs.comet_tenm": "Comet",
       "advancements.time_adv.title": "Forgotten Time",
       "advancements.underscore_adv.title": "Up and Under",
       "subtitles.pumpkin": "",
       "item.conceptdiscs.guardian_tenm.desc": "Guardian - T_en_M",
+      "gui.portdiscs.music_box_gui.button_brute": "Brute",
       "subtitles.overtune": "",
       "block.concpetdiscs.music_box": "Music Box",
       "item.concpetdiscs.luminous_tenm.desc": "Luminous - T_en_M",
       "entity.portdiscs.soul_seeker": "Soul Seeker",
       "item.concpetdiscs.stride": "Stride",
       "advancements.shrieker_adv.descr": "Obtain The Shrieker Disc",
+      "gui.portdiscs.music_box_gui.button_glide": "Glide",
       "advancements.stride_adv.descr": "Obtain The Stride Disc",
       "advancements.husk_adv.title": "Music Of The Husks",
       "advancements.wither_adv.descr": "Obtain The Wither Disc",
@@ -3436,12 +4325,15 @@
       "item.portdiscs.thunderstorm_tenm": "Music Disc",
       "item.portdiscs.glide_tenm.desc": "Glide - T_en_M",
       "item.concpetdiscs.the_ender_dragon_tenm": "The Ender Dragon",
+      "gui.portdiscs.music_box_gui.label_music_box_click_to_play_the_mus": "Music Box (Click to play the music)",
       "advancements.seeking_skulls.descr": "Obtain a Seeker\u0027s Skull",
       "item.concpetdiscs.the_wither_tenm.desc": "The Wither - T_en_M",
+      "gui.portdiscs.music_box_gui.button_cascade": "Cascade",
       "subtitles.comet": "",
       "itemGroup.concpetdiscs.mojang_concept_discs": "Infoy\u0027s Concept Discs",
       "item.concpetdiscs.husk_tenm": "Husk",
       "item.portdiscs.pumpkin_tenm.desc": "Pumpkin - T_en_M",
+      "gui.portdiscs.music_box_gui_2.button_the_wither": "The Wither",
       "item.concpetdiscs.snowstorm_tenm.desc": "Snowstorm - T_en_M",
       "item.conceptdiscs.raiders": "Raiders",
       "item.concpetdiscs.lighting_tenm.desc": "Lighting - T_en_M",
@@ -3452,6 +4344,7 @@
       "item.conceptdiscs.comet_tenm.desc": "Comet - T_en_M",
       "item.portdiscs.the_wither_tenm": "The Wither",
       "item.portdiscs.pumpkin_tenm": "Pumpkin",
+      "gui.portdiscs.music_box_gui_2.button_underscore": "Underscore",
       "item.conceptdiscs.nothern_lights_tenm": "Nothern Lights",
       "item.conceptdiscs.lighting_tenm": "Lighting",
       "advancements.pumpkin_adv.descr": "Obtain The Pumpkin Disc",
@@ -3468,6 +4361,7 @@
       "item.conceptdiscs.snowstorm_tenm": "Snowstorm",
       "advancements.magic_of_the_woods.descr": "Obtain a \u0027Staff of The Dark Woods\u0027",
       "advancements.enderdragon_adv.descr": "Obtain The Ender Dragon Disc",
+      "gui.portdiscs.music_box_gui_2.button_prev": "PREV",
       "item.concpetdiscs.the_wither_tenm": "The Wither",
       "item.portdiscs.ochre_tenm": "Ochre",
       "advancements.cascade_adv.descr": "Obtain The Cascade Disc",
@@ -3483,6 +4377,7 @@
       "item.conceptdiscs.alivetenm.desc": "Alive - T_en_M",
       "advancements.magic_of_souls.title": "Magic Of Souls",
       "item.portdiscs.luminous_tenm": "Luminous",
+      "gui.portdiscs.music_box_gui.button_next": "NEXT",
       "subtitles.time_t_en_m": "",
       "item.portdiscs.nothern_lights_tenm.desc": "Nothern Lights - T_en_M",
       "subtitles.husk": "",
@@ -3492,6 +4387,7 @@
       "item.conceptdiscs.underscore_tenm": "Underscore",
       "advancements.seeking_skulls.title": "Seeking Skulls",
       "item.portdiscs.warden_run_tenm.desc": "Warden Run - T_en_M",
+      "gui.portdiscs.music_box_gui.button_shrieker": "Shrieker",
       "advancements.thunderstorm_adv.title": "Clouds Are Gathering, A Storm Is Forming...",
       "advancements.overtune_adv.title": "Overtunit",
       "item.conceptdiscs.cascade_tenm.desc": "Cascade - T_en_M",
@@ -3515,8 +4411,10 @@
       "item.portdiscs.husk_tenm.desc": "Husk - T_en_m",
       "item.concpetdiscs.ochre_tenm.desc": "Ochre - T_en_M",
       "item.conceptdiscs.husk_tenm.desc": "Husk - T_en_m",
+      "gui.portdiscs.music_box_gui.button_guardian": "Guardian",
       "item.concpetdiscs.ochre_tenm": "Ochre",
       "advancements.luminous_adv.title": "Illuminating",
+      "gui.portdiscs.music_box_gui.button_forest": "Forest",
       "item.conceptdiscs.lush_gt.desc": "Lush - GamingTunes",
       "item.portdiscs.mashup_disc": "5K/10K Mashup",
       "block.portdiscs.citrineore": "Citrine ore",
@@ -3526,6 +4424,7 @@
       "item.concpetdiscs.raiders": "Raiders",
       "item.conceptdiscs.warden_run_tenm": "Warden Run",
       "advancements.pumpkin_adv.title": "Do not eat it ",
+      "gui.portdiscs.music_box_gui.button_lightning": "Lightning",
       "entity.portdiscs.soulfish": "Soulfish",
       "advancements.lightning_adv.title": "Storm Coming!",
       "subtitles.shrieker_x_brute": "",
@@ -3559,6 +4458,7 @@
       "item.conceptdiscs.nothern_lights_tenm.desc": "Nothern Lights - T_en_M",
       "item.concpetdiscs.storm_tenm.desc": "Storm - T_en_M",
       "item.concpetdiscs.brute_tenm": "Brute",
+      "gui.portdiscs.music_box_gui.button_sleigh": "Sleigh",
       "subtitles.cascade": "",
       "block.portdiscs.compressed_citrine": "Compressed Citrine",
       "subtitles.raiders": "",
@@ -3569,6 +4469,7 @@
       "item.portdiscs.guardian_tenm.desc": "Guardian - T_en_M",
       "item.portdiscs.shrieker_brute.desc": "Shrieker x Brute - T_en_M",
       "advancements.soulless_adv.title": "Wither\u0027s Treasure",
+      "gui.portdiscs.music_box_gui.button_comet": "Comet",
       "item.portdiscs.forest_tenm": "Forest",
       "item.portdiscs.staff_minion_spawn_egg": "Staff Minion Spawn Egg",
       "subtitles.ochre": "",
@@ -3588,6 +4489,7 @@
       "item.conceptdiscs.the_wither_tenm.desc": "The Wither - T_en_M",
       "subtitles.glide": "",
       "item.portdiscs.raiders_tenm.desc": "Raiders - T_en_M",
+      "gui.portdiscs.music_box_gui_2.button_soulless": "Soulless",
       "advancements.alive_adv.descr": "Obtain The Alive Disc",
       "item.conceptdiscs.forest_tenm.desc": "Forest - T_en_M",
       "subtitles.shulker": "Shulker Plays",
@@ -3598,8 +4500,11 @@
       "item.conceptdiscs.cascade_tenm": "Cascade ",
       "advancements.shulker_adv.descr": "Obtain a Shulker Disc",
       "advancements.lightning_adv.descr": "Obtain The Lightning Disc",
+      "gui.portdiscs.music_box_gui.label_play_musics": "Play Musics:",
       "advancements.sound_of_the_woods.title": "Sound Of The Woods",
       "item.portdiscs.staff_of_dark_woods": "Staff Of Dark Woods",
+      "gui.portdiscs.music_box_gui.button_luminous": "Luminous",
+      "gui.portdiscs.music_box_gui_2.button_pumpkin": "Pumpkin",
       "item.concpetdiscs.nothern_lights_tenm.desc": "Nothern Lights - T_en_M",
       "item.portdiscs.stride_tenm": "Stride",
       "item.portdiscs.alivetenm": "Alive",
@@ -3611,12 +4516,14 @@
       "item.portdiscs.alivetenm.desc": "Alive - T_en_M",
       "item.portdiscs.soulfish_spawn_egg": "Soulfish Spawn Egg",
       "advancements.comet_adv.descr": "Obtain The Comet Disc",
+      "gui.portdiscs.music_box_gui.button_northern_lights": "Northern Lights",
       "item.conceptdiscs.time_tenm": "Time",
       "advancements.raiders_adv.title": "How did they get this?",
       "item.portdiscs.stride_tenm.desc": "Stride - T_en_M",
       "item.concpetdiscs.lighting_tenm": "Lighting",
       "advancements.northen_lights_adv.descr": "Obtain The Northen Lights Disc",
       "advancements.warden_run_adv.title": "Warden, RUN!",
+      "gui.portdiscs.music_box_gui.button_ochre": "Ochre",
       "advancements.overtune_adv.descr": "Obtain The Overtune Disc",
       "item.portdiscs.husk_tenm": "Husk",
       "subtitles.alive": "",
@@ -3643,17 +4550,22 @@
       "subtitles.lighting_bolt": "",
       "item.conceptdiscs.stride": "Stride",
       "item.concpetdiscs.shrieker": "Shrieker",
+      "gui.portdiscs.music_box_gui.button_alive": "Alive",
       "item.conceptdiscs.alivetenm": "Alive",
       "item.conceptdiscs.storm_tenm": "Storm",
+      "gui.portdiscs.music_box_gui_2.button_warden_run": "Warden Run",
       "item.concpetdiscs.time_tenm": "Time",
       "subtitles.mashup_tune": "Mashup Disc Plays",
       "advancements.enderdragon_adv.title": "Why do i hear boss music?",
+      "gui.portdiscs.music_box_gui_2.button_storm": "Storm",
       "item.concpetdiscs.forest_tenm": "Forest",
       "item.portdiscs.underscore_tenm": "Underscore",
+      "gui.portdiscs.music_box_gui_2.button_the_ender_dragon": "The Ender Dragon",
       "subtitles.luminous": "",
       "item.portdiscs.shrieker_tenm.desc": "Shrieker - T_en_M",
       "item.portdiscs.alldisc": "AllDisc",
       "advancements.guardian_adv.title": "Very Guarded",
+      "gui.portdiscs.music_box_gui.label_click_button_another_when_first": "[Click button another when first music ends!]",
       "item.conceptdiscs.the_ender_dragon_tenm": "The Ender Dragon",
       "advancements.the_sound_of_music.title": "The Sound Of Music",
       "item.portdiscs.snowstorm_tenm": "Snowstorm",
@@ -3662,6 +4574,7 @@
       "advancements.underscore_adv.descr": "Obtain The Underscore Disc",
       "item.concpetdiscs.sleigh_tenm": "Sleigh",
       "item.portdiscs.lightning_tenm": "Lighting",
+      "gui.portdiscs.music_box_gui.button_overtune": "Overtune",
       "subtitles.northern_lights": "",
       "advancements.magic_of_the_woods.title": "Magic Of The Woods",
       "item.portdiscs.brute_tenm.desc": "T_en_M - Brute",
@@ -3695,12 +4608,13 @@
     "dependants": [],
     "mcreatorDependencies": [
       "terrablender",
-      "portinglib"
+      "portinglib",
+      "etf"
     ],
     "currentGenerator": "fabric-1.19.2",
     "credits": "InfoyTech, T_en_M (Author)",
     "modElementsPackage": "net.mojang.portdiscs",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200348217
+  "mcreatorVersion": 202300109612
 }

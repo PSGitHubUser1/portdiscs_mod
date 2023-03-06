@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 
 public class OchreTenmItem extends RecordItem {
 	public OchreTenmItem() {
-		super(4, PortdiscsModSounds.OCHRE, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE),
-				3220);
+		super(4, PortdiscsModSounds.OCHRE, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 3220);
 	}
 }

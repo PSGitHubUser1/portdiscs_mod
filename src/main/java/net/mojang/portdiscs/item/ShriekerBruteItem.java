@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 
 public class ShriekerBruteItem extends RecordItem {
 	public ShriekerBruteItem() {
-		super(5, PortdiscsModSounds.SHRIEKERXBRUTE,
-				new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 2580);
+		super(5, PortdiscsModSounds.SHRIEKERXBRUTE, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 2580);
 	}
 }

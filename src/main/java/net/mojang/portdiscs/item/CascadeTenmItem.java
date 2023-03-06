@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 
 public class CascadeTenmItem extends RecordItem {
 	public CascadeTenmItem() {
-		super(4, PortdiscsModSounds.CASCADE, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE),
-				3040);
+		super(4, PortdiscsModSounds.CASCADE, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 3040);
 	}
 }

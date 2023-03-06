@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 
 public class StormTenmItem extends RecordItem {
 	public StormTenmItem() {
-		super(3, PortdiscsModSounds.STORM, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE),
-				1180);
+		super(3, PortdiscsModSounds.STORM, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 1180);
 	}
 }

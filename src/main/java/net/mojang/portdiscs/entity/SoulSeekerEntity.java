@@ -1,4 +1,3 @@
-
 package net.mojang.portdiscs.entity;
 
 import net.mojang.portdiscs.procedures.SoulSeekerPlayerCollidesWithThisEntityProcedure;
@@ -39,8 +38,7 @@ import net.minecraft.core.BlockPos;
 import java.util.EnumSet;
 
 public class SoulSeekerEntity extends Monster {
-	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.BLUE,
-			ServerBossEvent.BossBarOverlay.NOTCHED_20);
+	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.BLUE, ServerBossEvent.BossBarOverlay.NOTCHED_20);
 
 	public SoulSeekerEntity(EntityType<SoulSeekerEntity> type, Level world) {
 		super(type, world);
@@ -67,8 +65,7 @@ public class SoulSeekerEntity extends Monster {
 
 			@Override
 			public boolean canContinueToUse() {
-				return SoulSeekerEntity.this.getMoveControl().hasWanted() && SoulSeekerEntity.this.getTarget() != null
-						&& SoulSeekerEntity.this.getTarget().isAlive();
+				return SoulSeekerEntity.this.getMoveControl().hasWanted() && SoulSeekerEntity.this.getTarget() != null && SoulSeekerEntity.this.getTarget().isAlive();
 			}
 
 			@Override
@@ -154,9 +151,7 @@ public class SoulSeekerEntity extends Monster {
 		Entity entity = this;
 		Level world = this.level;
 		Entity sourceentity = source.getEntity();
-
-		SoulSeekerEntityIsHurtProcedure.execute(
-				com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).build());
+		SoulSeekerEntityIsHurtProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).build());
 		if (source.getDirectEntity() instanceof ThrownPotion || source.getDirectEntity() instanceof AreaEffectCloud)
 			return false;
 		if (source == DamageSource.FALL)
@@ -186,9 +181,7 @@ public class SoulSeekerEntity extends Monster {
 		double x = this.getX();
 		double y = this.getY();
 		double z = this.getZ();
-
-		SoulSeekerPlayerCollidesWithThisEntityProcedure
-				.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("entity", entity).build());
+		SoulSeekerPlayerCollidesWithThisEntityProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("entity", entity).build());
 	}
 
 	@Override
@@ -219,7 +212,7 @@ public class SoulSeekerEntity extends Monster {
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.2);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.19999999999999998);
 		builder = builder.add(Attributes.MAX_HEALTH, 300);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 4);

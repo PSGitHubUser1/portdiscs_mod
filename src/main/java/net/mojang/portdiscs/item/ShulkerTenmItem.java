@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 
 public class ShulkerTenmItem extends RecordItem {
 	public ShulkerTenmItem() {
-		super(4, PortdiscsModSounds.SHULKER, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE),
-				2580);
+		super(4, PortdiscsModSounds.SHULKER, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 2580);
 	}
 }

@@ -30,5 +30,6 @@ public class ClientInit implements ClientModInitializer {
 		PortdiscsModScreens.load();
 		PortdiscsModModels.load();
 		PortdiscsModEntityRenderers.load();
+
 	}
 }

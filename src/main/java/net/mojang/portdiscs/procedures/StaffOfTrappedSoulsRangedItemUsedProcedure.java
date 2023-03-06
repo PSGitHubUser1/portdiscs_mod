@@ -216,8 +216,7 @@ public class StaffOfTrappedSoulsRangedItemUsedProcedure {
 					_player.getCooldowns().addCooldown(PortdiscsModItems.STAFF_OF_TRAPPED_SOULS, 60);
 			} else if ((entity instanceof Player _plr ? _plr.experienceLevel : 0) < 2) {
 				if (entity instanceof Player _player && !_player.level.isClientSide())
-					_player.displayClientMessage(
-							Component.literal("title @s actionbar {\"text\":\"Not Enough XP Level (Need 2 Levels)\",\"color\":\"red\"}"), (false));
+					_player.displayClientMessage(Component.literal("title @s actionbar {\"text\":\"Not Enough XP Level (Need 2 Levels)\",\"color\":\"red\"}"), (false));
 			}
 		}
 		if (Screen.hasAltDown()) {
@@ -228,30 +227,26 @@ public class StaffOfTrappedSoulsRangedItemUsedProcedure {
 					Entity entityToSpawn = new StaffMinionEntity(PortdiscsModEntities.STAFF_MINION, _level);
 					entityToSpawn.moveTo((x + Math.random() * 7), (y + 2), (z + Math.random() * 7), world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-								null, null);
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 					world.addFreshEntity(entityToSpawn);
 				}
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new StaffMinionEntity(PortdiscsModEntities.STAFF_MINION, _level);
 					entityToSpawn.moveTo((x - Math.random() * 7), (y + 2), (z + Math.random() * 7), world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-								null, null);
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 					world.addFreshEntity(entityToSpawn);
 				}
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new StaffMinionEntity(PortdiscsModEntities.STAFF_MINION, _level);
 					entityToSpawn.moveTo((x - Math.random() * 7), (y + 2), (z - Math.random() * 7), world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-								null, null);
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 					world.addFreshEntity(entityToSpawn);
 				}
 			} else {
 				if (entity instanceof Player _player && !_player.level.isClientSide())
-					_player.displayClientMessage(
-							Component.literal("title @s actionbar {\"text\":\"Not Enough XP (Need 3 Levels)\",\"color\":\"red\"}"), (false));
+					_player.displayClientMessage(Component.literal("title @s actionbar {\"text\":\"Not Enough XP (Need 3 Levels)\",\"color\":\"red\"}"), (false));
 			}
 		}
 	}

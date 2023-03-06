@@ -54,33 +54,28 @@ public class StaffOfTrappedSoulsEntitySwingsItemProcedure {
 					Entity entityToSpawn = new StaffMinionEntity(PortdiscsModEntities.STAFF_MINION, _level);
 					entityToSpawn.moveTo((x + Math.random() * 7), y, (z + Math.random() * 7), world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-								null, null);
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 					world.addFreshEntity(entityToSpawn);
 				}
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new StaffMinionEntity(PortdiscsModEntities.STAFF_MINION, _level);
 					entityToSpawn.moveTo((x - Math.random() * 7), y, (z + Math.random() * 7), world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-								null, null);
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 					world.addFreshEntity(entityToSpawn);
 				}
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new StaffMinionEntity(PortdiscsModEntities.STAFF_MINION, _level);
 					entityToSpawn.moveTo((x - Math.random() * 7), y, (z - Math.random() * 7), world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-								null, null);
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 					world.addFreshEntity(entityToSpawn);
 				}
 			} else {
 				{
 					Entity _ent = entity;
 					if (!_ent.level.isClientSide() && _ent.getServer() != null)
-						_ent.getServer().getCommands().performPrefixedCommand(
-								_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4),
-								"title @s actionbar {\"text\":\"Not Enough XP (Need 4 Levels)\",\"color\":\"red\"}");
+						_ent.getServer().getCommands().performPrefixedCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4), "title @s actionbar {\"text\":\"Not Enough XP (Need 4 Levels)\",\"color\":\"red\"}");
 				}
 			}
 		}

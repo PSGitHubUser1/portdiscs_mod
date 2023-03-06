@@ -13,15 +13,13 @@ import net.minecraft.world.entity.LivingEntity;
 
 public class BadOmenRealItem extends RecordItem {
 	public BadOmenRealItem() {
-		super(4, PortdiscsModSounds.BADOMEN, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE),
-				2420);
+		super(4, PortdiscsModSounds.BADOMEN, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 2420);
 	}
 
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		BadOmenLivingEntityIsHitWithItemProcedure
-				.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
+		BadOmenLivingEntityIsHitWithItemProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
 		return retval;
 	}
 }

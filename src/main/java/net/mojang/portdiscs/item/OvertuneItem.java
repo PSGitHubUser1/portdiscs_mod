@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 
 public class OvertuneItem extends RecordItem {
 	public OvertuneItem() {
-		super(4, PortdiscsModSounds.OVERTUNE, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE),
-				2120);
+		super(4, PortdiscsModSounds.OVERTUNE, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 2120);
 	}
 }

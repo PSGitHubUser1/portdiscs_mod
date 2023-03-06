@@ -51,8 +51,7 @@ public class SoulSeekerEntityIsHurtProcedure {
 				Entity entityToSpawn = new SoulfishEntity(PortdiscsModEntities.SOULFISH, _level);
 				entityToSpawn.moveTo(x, y, (z + 3), world.getRandom().nextFloat() * 360F, 0);
 				if (entityToSpawn instanceof Mob _mobToSpawn)
-					_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null,
-							null);
+					_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 				world.addFreshEntity(entityToSpawn);
 			}
 			world.setBlock(new BlockPos(x - 3, y - 1, z), Blocks.SOUL_SOIL.defaultBlockState(), 3);
@@ -65,8 +64,7 @@ public class SoulSeekerEntityIsHurtProcedure {
 					Entity entityToSpawn = new SoulfishEntity(PortdiscsModEntities.SOULFISH, _level);
 					entityToSpawn.moveTo((x - 3), y, z, world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-								null, null);
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 					world.addFreshEntity(entityToSpawn);
 				}
 			}

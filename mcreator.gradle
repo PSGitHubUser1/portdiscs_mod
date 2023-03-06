@@ -20,3 +20,15 @@ loom {
   accessWidenerPath = file("src/main/resources/" + actualmodid + ".accesswidener")
 }
 
+repositories {
+    maven {
+      url "https://cursemaven.com"
+      content {
+      includeGroup "curse.maven"
+    }
+  }
+}
+dependencies {
+    modRuntimeOnly "curse.maven:etf-568563:4291870"
+}
+

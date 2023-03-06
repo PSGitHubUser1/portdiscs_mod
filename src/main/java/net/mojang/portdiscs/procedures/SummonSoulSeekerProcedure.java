@@ -71,8 +71,7 @@ public class SummonSoulSeekerProcedure {
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.WITHER_SKELETON_SKULL
-				&& (world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == Blocks.DIAMOND_BLOCK
+		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.WITHER_SKELETON_SKULL && (world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == Blocks.DIAMOND_BLOCK
 				&& (world.getBlockState(new BlockPos(x, y - 2, z))).getBlock() == Blocks.SOUL_SOIL) {
 			world.setBlock(new BlockPos(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 			world.setBlock(new BlockPos(x, y - 1, z), Blocks.AIR.defaultBlockState(), 3);
@@ -81,8 +80,7 @@ public class SummonSoulSeekerProcedure {
 				Entity entityToSpawn = new SoulSeekerEntity(PortdiscsModEntities.SOUL_SEEKER, _level);
 				entityToSpawn.moveTo(x, (y - 2), z, world.getRandom().nextFloat() * 360F, 0);
 				if (entityToSpawn instanceof Mob _mobToSpawn)
-					_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null,
-							null);
+					_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 				world.addFreshEntity(entityToSpawn);
 			}
 			if (world instanceof ServerLevel _level) {

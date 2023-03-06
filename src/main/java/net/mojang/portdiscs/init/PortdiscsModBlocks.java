@@ -25,8 +25,7 @@ public class PortdiscsModBlocks {
 	public static void load() {
 		CITRINEBLOCK = Registry.register(Registry.BLOCK, new ResourceLocation(PortdiscsMod.MODID, "citrineblock"), new CitrineblockBlock());
 		CITRINEORE = Registry.register(Registry.BLOCK, new ResourceLocation(PortdiscsMod.MODID, "citrineore"), new CitrineoreBlock());
-		COMPRESSED_CITRINE = Registry.register(Registry.BLOCK, new ResourceLocation(PortdiscsMod.MODID, "compressed_citrine"),
-				new CompressedCitrineBlock());
+		COMPRESSED_CITRINE = Registry.register(Registry.BLOCK, new ResourceLocation(PortdiscsMod.MODID, "compressed_citrine"), new CompressedCitrineBlock());
 		SOUL_SEEKER_HEAD = Registry.register(Registry.BLOCK, new ResourceLocation(PortdiscsMod.MODID, "soul_seeker_head"), new SoulSeekerHeadBlock());
 		MUSIC_BOX = Registry.register(Registry.BLOCK, new ResourceLocation(PortdiscsMod.MODID, "music_box"), new MusicBoxBlock());
 	}

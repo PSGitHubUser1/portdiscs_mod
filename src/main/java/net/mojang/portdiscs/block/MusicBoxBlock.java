@@ -58,23 +58,20 @@ public class MusicBoxBlock extends Block {
 	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
 		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
 		if (world.getBestNeighborSignal(pos) > 0) {
-			MusicBoxRedstoneOnProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("x", pos.getX())
-					.put("y", pos.getY()).put("z", pos.getZ()).put("world", world).build());
+			MusicBoxRedstoneOnProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("x", pos.getX()).put("y", pos.getY()).put("z", pos.getZ()).put("world", world).build());
 		}
 	}
 
 	@Override
 	public void wasExploded(Level world, BlockPos pos, Explosion e) {
 		super.wasExploded(world, pos, e);
-		MusicBoxBlockDestroyedByExplosionProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("x", pos.getX())
-				.put("y", pos.getY()).put("z", pos.getZ()).put("world", world).build());
+		MusicBoxBlockDestroyedByExplosionProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("x", pos.getX()).put("y", pos.getY()).put("z", pos.getZ()).put("world", world).build());
 	}
 
 	@Override
 	public void onProjectileHit(Level world, BlockState blockstate, BlockHitResult hit, Projectile entity) {
 		MusicBoxOnBlockHitByProjectileProcedure
-				.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("x", hit.getBlockPos().getX())
-						.put("y", hit.getBlockPos().getY()).put("z", hit.getBlockPos().getZ()).put("world", world).build());
+				.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("x", hit.getBlockPos().getX()).put("y", hit.getBlockPos().getY()).put("z", hit.getBlockPos().getZ()).put("world", world).build());
 	}
 
 	@Override
@@ -87,8 +84,7 @@ public class MusicBoxBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		MusicBoxOnBlockRightClickedProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x)
-				.put("y", y).put("z", z).put("entity", entity).build());
+		MusicBoxOnBlockRightClickedProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).put("entity", entity).build());
 		return InteractionResult.SUCCESS;
 	}
 

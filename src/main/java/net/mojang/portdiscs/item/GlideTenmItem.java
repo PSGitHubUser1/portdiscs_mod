@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 
 public class GlideTenmItem extends RecordItem {
 	public GlideTenmItem() {
-		super(4, PortdiscsModSounds.GLIDE, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE),
-				2460);
+		super(4, PortdiscsModSounds.GLIDE, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 2460);
 	}
 }

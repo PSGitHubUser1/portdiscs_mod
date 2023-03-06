@@ -62,14 +62,14 @@ public class StaffOfDarkWoodsRightclickedProcedure {
 		if (!entity.isShiftKeyDown()) {
 			if (world.getLevelData().isRaining()) {
 				if (world instanceof ServerLevel _level)
-					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO,
-							_level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "weather clear");
+					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+							"weather clear");
 				if (entity instanceof Player _player)
 					_player.getCooldowns().addCooldown(itemstack.getItem(), 80);
 			} else {
 				if (world instanceof ServerLevel _level)
-					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO,
-							_level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "weather thunder");
+					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+							"weather thunder");
 				if (entity instanceof Player _player)
 					_player.getCooldowns().addCooldown(itemstack.getItem(), 80);
 			}

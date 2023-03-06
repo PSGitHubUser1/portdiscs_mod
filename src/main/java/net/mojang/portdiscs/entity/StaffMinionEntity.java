@@ -1,4 +1,3 @@
-
 package net.mojang.portdiscs.entity;
 
 import org.jetbrains.annotations.Nullable;
@@ -79,16 +78,13 @@ public class StaffMinionEntity extends PathfinderMob {
 	}
 
 	@Override
-	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason,
-			@Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
+	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
 		double x = this.getX();
 		double y = this.getY();
 		double z = this.getZ();
 		Entity entity = this;
-
-		StaffMinionOnInitialEntitySpawnProcedure
-				.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
+		StaffMinionOnInitialEntitySpawnProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("entity", entity).build());
 		return retval;
 	}
 

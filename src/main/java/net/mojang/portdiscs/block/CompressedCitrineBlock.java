@@ -23,8 +23,7 @@ import java.util.List;
 import java.util.Collections;
 
 public class CompressedCitrineBlock extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.METAL).requiresCorrectToolForDrops().sound(SoundType.METAL)
-			.strength(6f, 8f).requiresCorrectToolForDrops();
+	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.METAL).requiresCorrectToolForDrops().sound(SoundType.METAL).strength(6f, 8f).requiresCorrectToolForDrops();
 
 	public CompressedCitrineBlock() {
 		super(PROPERTIES);

@@ -74,8 +74,7 @@ public class PearlWandRightclickedProcedure {
 					Entity entityToSpawn = new ThrownEnderpearl(EntityType.ENDER_PEARL, _level);
 					entityToSpawn.moveTo((x + 10), y, z, world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-								null, null);
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 					world.addFreshEntity(entityToSpawn);
 				}
 			}
@@ -84,8 +83,7 @@ public class PearlWandRightclickedProcedure {
 					Entity entityToSpawn = new ThrownEnderpearl(EntityType.ENDER_PEARL, _level);
 					entityToSpawn.moveTo(x, y, (z + 10), world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-								null, null);
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 					world.addFreshEntity(entityToSpawn);
 				}
 			}
@@ -94,8 +92,7 @@ public class PearlWandRightclickedProcedure {
 					Entity entityToSpawn = new ThrownEnderpearl(EntityType.ENDER_PEARL, _level);
 					entityToSpawn.moveTo(x, y, (z - 10), world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-								null, null);
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 					world.addFreshEntity(entityToSpawn);
 				}
 			}
@@ -104,8 +101,7 @@ public class PearlWandRightclickedProcedure {
 					Entity entityToSpawn = new ThrownEnderpearl(EntityType.ENDER_PEARL, _level);
 					entityToSpawn.moveTo((x - 10), y, z, world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-								null, null);
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 					world.addFreshEntity(entityToSpawn);
 				}
 			}
@@ -114,8 +110,7 @@ public class PearlWandRightclickedProcedure {
 					Entity entityToSpawn = new ThrownEnderpearl(EntityType.ENDER_PEARL, _level);
 					entityToSpawn.moveTo((x + 10), y, (z + 10), world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-								null, null);
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 					world.addFreshEntity(entityToSpawn);
 				}
 			}
@@ -124,8 +119,7 @@ public class PearlWandRightclickedProcedure {
 					Entity entityToSpawn = new ThrownEnderpearl(EntityType.ENDER_PEARL, _level);
 					entityToSpawn.moveTo((x + 10), y, (z - 10), world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-								null, null);
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 					world.addFreshEntity(entityToSpawn);
 				}
 			}
@@ -134,8 +128,7 @@ public class PearlWandRightclickedProcedure {
 					Entity entityToSpawn = new ThrownEnderpearl(EntityType.ENDER_PEARL, _level);
 					entityToSpawn.moveTo((x - 10), y, (z + 10), world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-								null, null);
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 					world.addFreshEntity(entityToSpawn);
 				}
 			}
@@ -144,17 +137,14 @@ public class PearlWandRightclickedProcedure {
 					Entity entityToSpawn = new ThrownEnderpearl(EntityType.ENDER_PEARL, _level);
 					entityToSpawn.moveTo((x - 10), y, (z - 10), world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-								null, null);
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 					world.addFreshEntity(entityToSpawn);
 				}
 			}
 		}
 		if (entity.isShiftKeyDown()) {
-			if (!((world.getBlockState(new BlockPos(x, y, z))) == Blocks.WATER.defaultBlockState()
-					|| (world.getBlockState(new BlockPos(x, y, z))) == Blocks.BUBBLE_COLUMN.defaultBlockState()
-					|| (world.getBlockState(new BlockPos(x, y, z))) == Blocks.LAVA.defaultBlockState()
-					|| (world.getBlockState(new BlockPos(x, y, z))) == Blocks.LAVA.defaultBlockState()
+			if (!((world.getBlockState(new BlockPos(x, y, z))) == Blocks.WATER.defaultBlockState() || (world.getBlockState(new BlockPos(x, y, z))) == Blocks.BUBBLE_COLUMN.defaultBlockState()
+					|| (world.getBlockState(new BlockPos(x, y, z))) == Blocks.LAVA.defaultBlockState() || (world.getBlockState(new BlockPos(x, y, z))) == Blocks.LAVA.defaultBlockState()
 					|| (world.getBlockState(new BlockPos(x, y, z))) == Blocks.WATER.defaultBlockState()) == true) {
 				if (entity instanceof Player || entity instanceof ServerPlayer) {
 					if (entity instanceof Player _player)
@@ -164,40 +154,35 @@ public class PearlWandRightclickedProcedure {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x + 1.5), y, z, world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x + 2), y, z, world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x + 2.5), y, z, world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x + 3), y, z, world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x + 3.5), y, z, world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 					}
@@ -206,40 +191,35 @@ public class PearlWandRightclickedProcedure {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x + 1.5), y, (z - 1.5), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x + 2), y, (z - 2), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x + 2.5), y, (z - 2.5), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x + 3), y, (z - 3), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x + 3.5), y, (z - 3.5), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 					}
@@ -248,40 +228,35 @@ public class PearlWandRightclickedProcedure {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x + 1.5), y, (z + 1.5), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x + 2), y, (z + 2), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x + 2.5), y, (z + 2.5), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x + 3), y, (z + 3), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x + 3.5), y, (z + 3.5), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 					}
@@ -290,40 +265,35 @@ public class PearlWandRightclickedProcedure {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x - 1.5), y, (z - 1.5), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x - 2), y, (z - 2), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x - 2.5), y, (z - 2.5), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x - 3), y, (z - 3), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x - 3.5), y, (z - 3.5), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 					}
@@ -332,40 +302,35 @@ public class PearlWandRightclickedProcedure {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x - 1.5), y, (z + 1.5), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x - 2), y, (z + 2), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x - 2.5), y, (z + 2.5), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x - 3), y, (z + 3), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x - 3.5), y, (z + 3.5), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 					}
@@ -374,40 +339,35 @@ public class PearlWandRightclickedProcedure {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo(x, y, (z + 1.5), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo(x, y, (z + 2), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo(x, y, (z + 2.5), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo(x, y, (z + 3), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo(x, y, (z + 3.5), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 					}
@@ -416,40 +376,35 @@ public class PearlWandRightclickedProcedure {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo(x, y, (z - 1.5), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo(x, y, (z - 2), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo(x, y, (z - 2.5), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo(x, y, (z - 3), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo(x, y, (z - 3.5), world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 					}
@@ -458,40 +413,35 @@ public class PearlWandRightclickedProcedure {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x - 1.5), y, z, world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x - 2), y, z, world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x - 2.5), y, z, world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x - 3), y, z, world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new EvokerFangs(EntityType.EVOKER_FANGS, _level);
 							entityToSpawn.moveTo((x - 3.5), y, z, world.getRandom().nextFloat() * 360F, 0);
 							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()),
-										MobSpawnType.MOB_SUMMONED, null, null);
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 							world.addFreshEntity(entityToSpawn);
 						}
 					}

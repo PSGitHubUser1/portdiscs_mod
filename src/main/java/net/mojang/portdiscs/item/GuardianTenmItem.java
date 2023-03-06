@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 
 public class GuardianTenmItem extends RecordItem {
 	public GuardianTenmItem() {
-		super(4, PortdiscsModSounds.GUARDIAN, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE),
-				2820);
+		super(4, PortdiscsModSounds.GUARDIAN, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 2820);
 	}
 }

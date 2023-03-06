@@ -23,8 +23,7 @@ public class RaidersLivingEntityIsHitWithItemProcedure {
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if (entity instanceof Evoker || entity instanceof Illusioner || entity instanceof Pillager || entity instanceof Ravager
-				|| entity instanceof Vex || entity instanceof Vindicator || entity instanceof Witch) {
+		if (entity instanceof Evoker || entity instanceof Illusioner || entity instanceof Pillager || entity instanceof Ravager || entity instanceof Vex || entity instanceof Vindicator || entity instanceof Witch) {
 			entity.hurt(DamageSource.GENERIC, 100);
 		}
 	}

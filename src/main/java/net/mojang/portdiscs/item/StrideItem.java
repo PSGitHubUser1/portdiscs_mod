@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 
 public class StrideItem extends RecordItem {
 	public StrideItem() {
-		super(4, PortdiscsModSounds.STRIDE, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE),
-				3020);
+		super(4, PortdiscsModSounds.STRIDE, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 3020);
 	}
 }

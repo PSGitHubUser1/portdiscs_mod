@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 
 public class LightingTenmItem extends RecordItem {
 	public LightingTenmItem() {
-		super(4, PortdiscsModSounds.LIGHTING_BOLT,
-				new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 2780);
+		super(4, PortdiscsModSounds.LIGHTING_BOLT, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 2780);
 	}
 }

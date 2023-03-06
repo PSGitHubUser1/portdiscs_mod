@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 
 public class UnderscoreTenmItem extends RecordItem {
 	public UnderscoreTenmItem() {
-		super(4, PortdiscsModSounds.UNDERSCORE, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE),
-				3700);
+		super(4, PortdiscsModSounds.UNDERSCORE, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 3700);
 	}
 }

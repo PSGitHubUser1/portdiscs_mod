@@ -58,8 +58,7 @@ public class StaffOfTrappedSoulsItem extends Item implements EntitySwingListener
 		double y = entity.getY();
 		double z = entity.getZ();
 		LevelAccessor world = entity.level;
-		StaffOfTrappedSoulsEntitySwingsItemProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world)
-				.put("x", x).put("y", y).put("z", z).put("entity", entity).build());
+		StaffOfTrappedSoulsEntitySwingsItemProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).put("entity", entity).build());
 		return false;
 	}
 
@@ -73,8 +72,7 @@ public class StaffOfTrappedSoulsItem extends Item implements EntitySwingListener
 				StaffOfTrappedSoulsEntity entityarrow = StaffOfTrappedSoulsEntity.shoot(world, entity, world.getRandom(), 2f, 2, 2);
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
-				StaffOfTrappedSoulsRangedItemUsedProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder()
-						.put("world", world).put("x", x).put("y", y).put("z", z).put("entity", entity).build());
+				StaffOfTrappedSoulsRangedItemUsedProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).put("entity", entity).build());
 			}
 		}
 	}

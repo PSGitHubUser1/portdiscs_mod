@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 
 public class NothernLightsTenmItem extends RecordItem {
 	public NothernLightsTenmItem() {
-		super(4, PortdiscsModSounds.NORTHERN_LIGHTS,
-				new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 2620);
+		super(4, PortdiscsModSounds.NORTHERN_LIGHTS, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 2620);
 	}
 }

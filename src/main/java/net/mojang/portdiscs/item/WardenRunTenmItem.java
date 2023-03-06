@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 
 public class WardenRunTenmItem extends RecordItem {
 	public WardenRunTenmItem() {
-		super(4, PortdiscsModSounds.WARDEN_RUN, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE),
-				3680);
+		super(4, PortdiscsModSounds.WARDEN_RUN, new Item.Properties().tab(PortdiscsModTabs.TAB_INFOYS_PORTDISCS_MOD).stacksTo(1).rarity(Rarity.RARE), 3680);
 	}
 }

@@ -14,7 +14,6 @@ public class PortdiscsModTabs {
 	public static CreativeModeTab TAB_INFOYS_PORTDISCS_MOD;
 
 	public static void load() {
-		TAB_INFOYS_PORTDISCS_MOD = FabricItemGroupBuilder.create(new ResourceLocation("portdiscs", "infoys_portdiscs_mod"))
-				.icon(() -> new ItemStack(PortdiscsModItems.MASHUP_DISC)).build();
+		TAB_INFOYS_PORTDISCS_MOD = FabricItemGroupBuilder.create(new ResourceLocation("portdiscs", "infoys_portdiscs_mod")).icon(() -> new ItemStack(PortdiscsModItems.MASHUP_DISC)).build();
 	}
 }

@@ -31,9 +31,7 @@ public class UnlockRecipeKeyOnKeyPressedProcedure {
 			if (entity instanceof ServerPlayer _serverPlayer)
 				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("portdiscs:staff_recipe_2")});
 		}
-		if (entity instanceof Player _playerHasItem
-				? _playerHasItem.getInventory().contains(new ItemStack(PortdiscsModBlocks.SOUL_SEEKER_HEAD))
-				: false) {
+		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(PortdiscsModBlocks.SOUL_SEEKER_HEAD)) : false) {
 			if (entity instanceof ServerPlayer _serverPlayer)
 				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("portdiscs:staff_recipe_1")});
 		}
@@ -52,15 +50,9 @@ public class UnlockRecipeKeyOnKeyPressedProcedure {
 				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("portdiscs:warden_run_recipe")});
 		}
 		if ((entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(PortdiscsModItems.BRUTE_TENM)) : false)
-				|| (entity instanceof Player _playerHasItem
-						? _playerHasItem.getInventory().contains(new ItemStack(PortdiscsModItems.SHRIEKER_TENM))
-						: false)
-				|| (entity instanceof Player _playerHasItem
-						? _playerHasItem.getInventory().contains(new ItemStack(PortdiscsModItems.BRUTE_TENM))
-						: false)
-						&& (entity instanceof Player _playerHasItem
-								? _playerHasItem.getInventory().contains(new ItemStack(PortdiscsModItems.SHRIEKER_TENM))
-								: false)) {
+				|| (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(PortdiscsModItems.SHRIEKER_TENM)) : false)
+				|| (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(PortdiscsModItems.BRUTE_TENM)) : false)
+						&& (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(PortdiscsModItems.SHRIEKER_TENM)) : false)) {
 			if (entity instanceof ServerPlayer _serverPlayer)
 				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("portdiscs:shriekxbrute")});
 		}

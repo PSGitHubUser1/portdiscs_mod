@@ -41,10 +41,9 @@ public class CitrineoreFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new CitrineoreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("portdiscs:citrineore", FEATURE,
-				new OreConfiguration(CitrineoreFeatureRuleTest.INSTANCE, PortdiscsModBlocks.CITRINEORE.defaultBlockState(), 6));
-		PLACED_FEATURE = PlacementUtils.register("portdiscs:citrineore", CONFIGURED_FEATURE, List.of(CountPlacement.of(7), InSquarePlacement.spread(),
-				HeightRangePlacement.uniform(VerticalAnchor.absolute(13), VerticalAnchor.absolute(190)), BiomeFilter.biome()));
+		CONFIGURED_FEATURE = FeatureUtils.register("portdiscs:citrineore", FEATURE, new OreConfiguration(CitrineoreFeatureRuleTest.INSTANCE, PortdiscsModBlocks.CITRINEORE.defaultBlockState(), 6));
+		PLACED_FEATURE = PlacementUtils.register("portdiscs:citrineore", CONFIGURED_FEATURE,
+				List.of(CountPlacement.of(7), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(13), VerticalAnchor.absolute(190)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -68,8 +67,7 @@ public class CitrineoreFeature extends OreFeature {
 	private static class CitrineoreFeatureRuleTest extends RuleTest {
 		static final CitrineoreFeatureRuleTest INSTANCE = new CitrineoreFeatureRuleTest();
 		static final com.mojang.serialization.Codec<CitrineoreFeatureRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
-		static final RuleTestType<CitrineoreFeatureRuleTest> CUSTOM_MATCH = Registry.register(Registry.RULE_TEST,
-				new ResourceLocation("portdiscs:citrineore_match"), () -> codec);
+		static final RuleTestType<CitrineoreFeatureRuleTest> CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("portdiscs:citrineore_match"), () -> codec);
 
 		public boolean test(BlockState blockAt, RandomSource random) {
 			boolean blockCriteria = false;

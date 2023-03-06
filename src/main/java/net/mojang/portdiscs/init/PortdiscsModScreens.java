@@ -7,11 +7,11 @@ package net.mojang.portdiscs.init;
 import net.mojang.portdiscs.client.gui.MusicBoxGUIScreen;
 import net.mojang.portdiscs.client.gui.MusicBoxGUI2Screen;
 
-import net.fabricmc.fabric.api.client.screenhandler.v1.ScreenRegistry;
+import net.minecraft.client.gui.screens.MenuScreens;
 
 public class PortdiscsModScreens {
 	public static void load() {
-		ScreenRegistry.register(PortdiscsModMenus.MUSIC_BOX_GUI, MusicBoxGUIScreen::new);
-		ScreenRegistry.register(PortdiscsModMenus.MUSIC_BOX_GUI_2, MusicBoxGUI2Screen::new);
+		MenuScreens.register(PortdiscsModMenus.MUSIC_BOX_GUI, MusicBoxGUIScreen::new);
+		MenuScreens.register(PortdiscsModMenus.MUSIC_BOX_GUI_2, MusicBoxGUI2Screen::new);
 	}
 }

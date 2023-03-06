@@ -51,16 +51,14 @@ public class StaffOfDarkWoodsItem extends Item {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		StaffOfDarkWoodsRightclickedProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x)
-				.put("y", y).put("z", z).put("entity", entity).put("itemstack", itemstack).build());
+		StaffOfDarkWoodsRightclickedProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", world).put("x", x).put("y", y).put("z", z).put("entity", entity).put("itemstack", itemstack).build());
 		return ar;
 	}
 
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
 		InteractionResult retval = super.useOn(context);
-		StaffOfDarkWoodsRightclickedOnBlockProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder()
-				.put("world", context.getLevel()).put("x", context.getClickedPos().getX()).put("y", context.getClickedPos().getY())
+		StaffOfDarkWoodsRightclickedOnBlockProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", context.getLevel()).put("x", context.getClickedPos().getX()).put("y", context.getClickedPos().getY())
 				.put("z", context.getClickedPos().getZ()).put("entity", context.getPlayer()).build());
 		return retval;
 	}

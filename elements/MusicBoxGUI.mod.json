@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 39,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -13,12 +13,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Music Box (Click to play the music)",
+          "name": "label_music_box_click_to_play_the_mus",
+          "text": {
+            "fixedValue": "Music Box (Click to play the music)"
+          },
           "color": {
             "value": -39424,
             "falpha": 0.0
           },
-          "name": "Music Box (Click to play the music)",
           "x": 120,
           "y": 41
         }
@@ -26,12 +28,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Play Musics:",
+          "name": "label_play_musics",
+          "text": {
+            "fixedValue": "Play Musics:"
+          },
           "color": {
             "value": -15438370,
             "falpha": 0.0
           },
-          "name": "Play Musics:",
           "x": 49,
           "y": 77
         }
@@ -39,13 +43,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_alive",
           "text": "Alive",
           "onClick": {
             "name": "AliveRun"
           },
           "width": 51,
           "height": 20,
-          "name": "Alive",
           "x": 52,
           "y": 92
         }
@@ -53,13 +57,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_brute",
           "text": "Brute",
           "onClick": {
             "name": "BruteRun"
           },
           "width": 51,
           "height": 20,
-          "name": "Brute",
           "x": 52,
           "y": 119
         }
@@ -67,13 +71,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_cascade",
           "text": "Cascade",
           "onClick": {
             "name": "CascadeRun"
           },
           "width": 61,
           "height": 20,
-          "name": "Cascade",
           "x": 52,
           "y": 144
         }
@@ -81,13 +85,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_comet",
           "text": "Comet",
           "onClick": {
             "name": "CometRun"
           },
           "width": 51,
           "height": 20,
-          "name": "Comet",
           "x": 51,
           "y": 172
         }
@@ -95,13 +99,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_next",
           "text": "NEXT",
           "onClick": {
             "name": "NEXTGUIClick"
           },
           "width": 46,
           "height": 20,
-          "name": "NEXT",
           "x": 375,
           "y": 7
         }
@@ -109,13 +113,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_forest",
           "text": "Forest",
           "onClick": {
             "name": "ForestRun"
           },
           "width": 56,
           "height": 20,
-          "name": "Forest",
           "x": 119,
           "y": 92
         }
@@ -123,13 +127,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_glide",
           "text": "Glide",
           "onClick": {
             "name": "GlideRun"
           },
           "width": 51,
           "height": 20,
-          "name": "Glide",
           "x": 119,
           "y": 119
         }
@@ -137,13 +141,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_guardian",
           "text": "Guardian",
           "onClick": {
             "name": "GuardianRun"
           },
           "width": 67,
           "height": 20,
-          "name": "Guardian",
           "x": 119,
           "y": 144
         }
@@ -151,12 +155,14 @@
       {
         "type": "label",
         "data": {
-          "text": "[Click button another when first music ends!]",
+          "name": "label_click_button_another_when_first",
+          "text": {
+            "fixedValue": "[Click button another when first music ends!]"
+          },
           "color": {
             "value": -3407821,
             "falpha": 0.0
           },
-          "name": "[Click button another when first music ends!]",
           "x": 97,
           "y": 60
         }
@@ -164,13 +170,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_husk",
           "text": "Husk",
           "onClick": {
             "name": "HuskRun"
           },
           "width": 46,
           "height": 20,
-          "name": "Husk",
           "x": 119,
           "y": 172
         }
@@ -178,13 +184,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_lightning",
           "text": "Lightning",
           "onClick": {
             "name": "Lightning"
           },
           "width": 72,
           "height": 20,
-          "name": "Lightning",
           "x": 194,
           "y": 92
         }
@@ -192,13 +198,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_luminous",
           "text": "Luminous",
           "onClick": {
             "name": "LuminousRun"
           },
           "width": 67,
           "height": 20,
-          "name": "Luminous",
           "x": 194,
           "y": 119
         }
@@ -206,13 +212,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_northern_lights",
           "text": "Northern Lights",
           "onClick": {
             "name": "NothernLightsRun"
           },
           "width": 103,
           "height": 20,
-          "name": "Northern Lights",
           "x": 194,
           "y": 144
         }
@@ -220,13 +226,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_ochre",
           "text": "Ochre",
           "onClick": {
             "name": "OchreRun"
           },
           "width": 51,
           "height": 20,
-          "name": "Ochre",
           "x": 194,
           "y": 172
         }
@@ -234,13 +240,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_overtune",
           "text": "Overtune",
           "onClick": {
             "name": "OvertuneRun"
           },
           "width": 67,
           "height": 20,
-          "name": "Overtune",
           "x": 301,
           "y": 93
         }
@@ -248,13 +254,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_raiders",
           "text": "Raiders",
           "onClick": {
             "name": "RaidersRun"
           },
           "width": 61,
           "height": 20,
-          "name": "Raiders",
           "x": 301,
           "y": 119
         }
@@ -262,13 +268,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_shrieker",
           "text": "Shrieker",
           "onClick": {
             "name": "ShriekerRun"
           },
           "width": 67,
           "height": 20,
-          "name": "Shrieker",
           "x": 301,
           "y": 144
         }
@@ -276,13 +282,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_sleigh",
           "text": "Sleigh",
           "onClick": {
             "name": "SleighRun"
           },
           "width": 56,
           "height": 20,
-          "name": "Sleigh",
           "x": 301,
           "y": 172
         }
