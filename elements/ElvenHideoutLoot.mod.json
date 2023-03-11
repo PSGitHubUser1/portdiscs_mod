@@ -108,9 +108,23 @@
             "item": {
               "value": "Items.GOLDEN_CARROT"
             },
-            "weight": 1,
+            "weight": 2,
             "minCount": 4,
             "maxCount": 9,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Tundra"
+            },
+            "weight": 1,
+            "minCount": 0,
+            "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
