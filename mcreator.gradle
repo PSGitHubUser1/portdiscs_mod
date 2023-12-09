@@ -39,6 +39,6 @@ repositories {
 }
 
 dependencies {
-  modImplementation "software.bernie.geckolib:geckolib-fabric-1.19:3.1.40"
+  modImplementation "software.bernie.geckolib:geckolib-fabric-1.19:3.1.201"
 }
 
